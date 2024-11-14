@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         勋章数据
 // @namespace    http://tampermonkey.net/
-// @version      2024.11.15
+// @version      2024.11.16
 // @description  勋章图鉴数据
 // @author       福黎
 // @match        https://www.gamemale.com/*
