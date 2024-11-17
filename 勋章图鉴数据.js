@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         勋章图鉴数据
+// @namespace    http://tampermonkey.net/
+// @version      2024.11.12
+// @description  勋章图鉴数据
+// @author       福黎
+// @match        https://www.gamemale.com/*
+// @grant        GM_setValue
+// ==/UserScript==
 (function () {
   window.勋章数据 = [
     {
