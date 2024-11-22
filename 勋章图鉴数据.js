@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         勋章图鉴数据
 // @namespace    http://tampermonkey.net/
-// @version      2024.11.19.2
+// @version      2024.11.22.1
 // @description  勋章图鉴数据
 // @author       福黎
 // @match        https://www.gamemale.com/*
@@ -14,6 +14,7 @@
       基本信息: {
         馆藏编号: "No.0001",
         名称: "詹姆斯·维加（James Vega）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/115247oqzqzd5ubssdsvvd.gif",
         状态: "流通",
         分类: "游戏男从",
         来源: "质量效应Ⅲ",
@@ -54,6 +55,7 @@
       基本信息: {
         馆藏编号: "No.0002",
         名称: "奥伦（Auron）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/114744x8iyxd149y4prmiy.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "最终幻想",
@@ -72,7 +74,7 @@
       等级数据: [
         {
           等级: '等级1 奥伦',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/114744x8iyxd149y4prmiy.gif",
+          图片: "",
           属性: "无属性",
           升级条件: "旅程 ≥ 50"
         },
@@ -84,7 +86,7 @@
         },
         {
           等级: "等级Max 奥伦",
-          图片: "未知",
+          图片: "",
           属性: "发帖 金币 +3，触发几率 20%"
         }
       ],
@@ -94,6 +96,7 @@
       基本信息: {
         馆藏编号: "No.0003",
         名称: "希德‧海温特（Cid Highwind）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110946wz4mq9v005q67z6m.gif",
         状态: "流通",
         分类: "游戏男从",
         来源: "最终幻想",
@@ -111,25 +114,25 @@
       等级数据: [
         {
           等级: '等级1 希德‧海温特',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110946wz4mq9v005q67z6m.gif",
+          图片: "",
           属性: "属性未知",
           升级条件: "未知"
         },
         {
           等级: '等级2 希德‧海温特',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110946wz4mq9v005q67z6m.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110951gw7pzyrnzj4g63v7.gif",
           属性: "回帖 金币 +1，触发几率 4%",
           升级条件: "100金币"
         },
         {
           等级: "等级3 希德‧海温特",
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110946wz4mq9v005q67z6m.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110954wzwqpcwc1pvtgntk.gif",
           属性: "回帖 金币 +1，触发几率 8%",
           升级条件: "150金币"
         },
         {
           等级: "等级Max 希德‧海温特",
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110946wz4mq9v005q67z6m.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110957t9yeke4eooy8t6oo.gif",
           属性: "回帖 金币 +2，触发几率 12%"
         }
       ],
@@ -139,6 +142,7 @@
       基本信息: {
         馆藏编号: "No.0004",
         名称: "吉姆‧雷诺（Jim Raynor）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110702wx3x1duzruxic5j6.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "星际争霸",
@@ -157,7 +161,7 @@
       等级数据: [
         {
           等级: '等级Max 吉姆‧雷诺（Jim Raynor）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110702wx3x1duzruxic5j6.gif",
+          图片: "",
           属性: "发帖 旅程 +1，触发几率 12%",
         }
       ],
@@ -167,6 +171,7 @@
       基本信息: {
         馆藏编号: "No.0005",
         名称: "法卡斯（Farkas）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/111005dgylr33o666ghkor.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "上古卷轴Ⅴ",
@@ -185,7 +190,7 @@
       等级数据: [
         {
           等级: '等级Max 法卡斯（Farkas）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/111005dgylr33o666ghkor.gif",
+          图片: "",
           属性: "回帖 血液 +1、发帖 血液 +1，触发几率 12%",
         }
       ],
@@ -195,6 +200,7 @@
       基本信息: {
         馆藏编号: "No.0006",
         名称: "维吉尔（Vergil）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110708a7j7v4ay9zjfuxxf.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "鬼泣",
@@ -213,19 +219,19 @@
       等级数据: [
         {
           等级: '等级1 维吉尔（Vergil）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110708a7j7v4ay9zjfuxxf.gif",
+          图片: "https://img.gamemale.com/forum/202308/26/191303p6azj4rk66fhd06k.gif",
           属性: "无属性",
           升级条件: "消耗20血液"
         },
         {
           等级: '等级2 维吉尔（Vergil）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110708a7j7v4ay9zjfuxxf.gif",
+          图片: "https://img.gamemale.com/forum/202308/26/191303p6azj4rk66fhd06k.gif",
           属性: "无属性",
           升级条件: "消耗20血液"
         },
         {
           等级: '等级3 维吉尔（Vergil）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110708a7j7v4ay9zjfuxxf.gif",
+          图片: "https://img.gamemale.com/forum/202308/26/191303p6azj4rk66fhd06k.gif",
           属性: "回帖 咒术 +1、发帖 咒术 +1  触发概率 4%",
           升级条件: "升级后获得10堕落"
         },
@@ -241,6 +247,7 @@
       基本信息: {
         馆藏编号: "No.0007",
         名称: "皮尔斯‧尼凡斯（Piers Nivans）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110608dcdcbkdonjozw2wc.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "生化危机",
@@ -259,19 +266,19 @@
       等级数据: [
         {
           等级: '等级1 皮尔斯‧尼凡斯（Piers Nivans）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110608dcdcbkdonjozw2wc.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110613xyiyof70titsui7z.gif",
           属性: "无属性",
           升级条件: "消耗50金币"
         },
         {
           等级: '等级2 皮尔斯‧尼凡斯（Piers Nivans）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110608dcdcbkdonjozw2wc.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110619ezopcradfkkoitvi.gif",
           属性: "无属性",
           升级条件: "消耗50血液"
         },
         {
           等级: '等级3 皮尔斯‧尼凡斯（Piers Nivans）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110608dcdcbkdonjozw2wc.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110624i11ketiun46tjz3p.gif",
           属性: "无属性",
           升级条件: "消耗50咒术"
         },
@@ -287,6 +294,7 @@
       基本信息: {
         馆藏编号: "No.0008",
         名称: "文森特·瓦伦丁（Vincent Valentine）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110602f3xyqdqdkjmgipe1.gif",
         状态: "流通",
         分类: "游戏男从",
         来源: "最终幻想",
@@ -301,7 +309,7 @@
         作者: ['DesmondC', 'https://www.gamemale.com/?63669'],
       },
       属性: ['普通类徽章', '咒术向徽章', '可回收、可寄售、可赠送、不可续期'],
-      简介: "Piers Nivans，和克里斯一样，皮尔斯同属BSAA北美分部。作为一名天才狙击手，皮尔斯拥有着优秀的动态视力和集中力，「目标一旦锁定就不会漏掉」是他的座右铭责任感强，对周围的洞察极其敏锐。这些优秀的能力让他能应对战场上的各种局面。引导自己和周围的人走向正确的道路是他最大的优点，同时他也是一个心思缜密的男人，性格开朗，对待每个人都很温柔。克里斯非常的信赖他，并且希望他能成为BSAA将来的栋梁。",
+      简介: "Vincent Valentine 原是神罗塔克斯(Turks)成员，曾是萨菲罗斯的母亲露克蕾西亚的恋人，沉睡在神罗别墅地下室中的充满悲剧色彩的男人。27岁是他沉睡时的年龄，他的实际年龄应该在50岁以上。文森特在亲眼目睹自己仍旧深爱的昔日恋人被用作人体试验后，被宝条暗算，改造成了不老不死的生物，身体被改造，可以变身为各种异型怪物，同时失去理性，变成了纯粹的杀戮机器。",
       等级数据: [
         {
           等级: '等级Max 文森特·瓦伦丁（Vincent Valentine）',
@@ -309,12 +317,13 @@
           属性: "回帖 咒术 +1、发帖 堕落 +1，触发几率 10%",
         }
       ],
-      特殊: '在论坛恢复后随勋章系统重开补货20枚'
+      特殊: ['在论坛恢复后随勋章系统重开补货20枚']
     },
     {
       基本信息: {
         馆藏编号: "No.0009",
         名称: "巴尔弗雷亚（Balthier）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110509oibjnjnhg2gg5jjt.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "最终幻想",
@@ -327,23 +336,25 @@
         寄售最大价格: "402 金币",
         寄售中介费: "10%",
         作者: ['gamemale', 'https://www.gamemale.com/?50871'],
-        图片: "https://www.gamemale.com/data/attachment/album/201401/01/110509oibjnjnhg2gg5jjt.gif",
-        简介: "Piers Nivans，和克里斯一样，皮尔斯同属BSAA北美分部。作为一名天才狙击手，皮尔斯拥有着优秀的动态视力和集中力，「目标一旦锁定就不会漏掉」是他的座右铭责任感强，对周围的洞察极其敏锐。这些优秀的能力让他能应对战场上的各种局面。引导自己和周围的人走向正确的道路是他最大的优点，同时他也是一个心思缜密的男人，性格开朗，对待每个人都很温柔。克里斯非常的信赖他，并且希望他能成为BSAA将来的栋梁。",
       },
+      简介: "Balthier，不被任何人束缚，以自由的翱翔于天空的空贼为职业的男人。不论何时言行都充满着自信。身为空贼巴尔弗雷亚只以坏人为目标而闻名，被平民称作义贼，但也造成了各种麻烦。阿卡迪亚帝国将他作为目标追捕，因此他的是个高赏金的通缉犯。相当自信的巴尔弗雷亚却也有让人讨厌的地方，喜欢喝酒、又爱唠唠叨叨，但整体能力一流，拥有足以证明自信的实力，不论是作为机工士，还是飞空艇的整备，能力都非常出色。",
       属性: ['普通类徽章', '金币向徽章', '可回收、可寄售、可赠送、不可续期'],
       等级数据: [
         {
           等级: '等级1 巴尔弗雷亚（Balthier）',
+          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110509oibjnjnhg2gg5jjt.gif",
           属性: "回帖 金币 +2、发帖 金币 +2，触发几率 4%",
           升级条件: "知识 ≥ 10"
         },
         {
           等级: '等级2 巴尔弗雷亚（Balthier）',
+          图片: "https://img.gamemale.com/forum/202308/27/145025m70p10jslze090nc.gif",
           属性: "回帖 金币 +2、发帖 金币 +2，触发几率 8%",
           升级条件: "知识 ≥ 30"
         },
         {
           等级: '等级Max 巴尔弗雷亚（Balthier）',
+          图片: "https://img.gamemale.com/forum/202306/09/042630zb7wa5wrw3piwrxa.gif",
           属性: "回帖 金币 +2、发帖 金币 +2，触发几率 12%",
         },
       ],
@@ -353,6 +364,7 @@
       基本信息: {
         馆藏编号: "No.0010",
         名称: "但丁（Dante）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110759vzcs5v8iv533sz8r.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "最终幻想",
@@ -371,31 +383,31 @@
       等级数据: [
         {
           等级: '等级1 但丁（Dante）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110759vzcs5v8iv533sz8r.gif",
+          图片: "",
           属性: "发帖 咒术 +1，触发几率 5%",
           升级条件: "血液 ≥ 10"
         },
         {
           等级: '等级2 但丁（Dante）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110759vzcs5v8iv533sz8r.gif",
+          图片: "",
           属性: "发帖 咒术 +1，触发几率 8%",
           升级条件: "咒术 ≥ 10"
         },
         {
           等级: '等级3 但丁（Dante）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110759vzcs5v8iv533sz8r.gif",
+          图片: "",
           属性: "发帖 咒术 +2，触发几率 10%",
           升级条件: "灵魂 ≥ 1"
         },
         {
           等级: '等级4 但丁（Dante）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110759vzcs5v8iv533sz8r.gif",
+          图片: "",
           属性: "发帖 咒术 +2，触发几率 15%",
           升级条件: "咒术 ≥ 30"
         },
         {
           等级: '等级Max 但丁（Dante）',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110759vzcs5v8iv533sz8r.gif",
+          图片: "",
           属性: "发帖 咒术 +3，触发几率 20%",
         },
       ],
@@ -405,6 +417,7 @@
       基本信息: {
         馆藏编号: "No.0011",
         名称: "盖里（Gary）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/115302g62mqxjlp24su7qp.gif",
         状态: "绝版",
         分类: "真人男从",
         来源: "英剧.米兰达（Miranda）",
@@ -429,7 +442,7 @@
         },
         {
           等级: '等级2 盖里（Gary）',
-          图片: "https://img.gamemale.com/album/201401/01/115306fd5tw9db50g0dk9g.gif",
+          图片: "https://img.gamemale.com/album/201401/01/115309du9mmexq1m2zmx2g.gif",
           属性: "发帖 旅程 +1、回帖 血液 +1，触发几率 5%",
           升级条件: "好友数 ≥ 30"
         },
@@ -445,6 +458,7 @@
       基本信息: {
         馆藏编号: "No.0012",
         名称: "杰夫‧莫罗（Jeff Moreau）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/114344oyi8byyiy54io4ii.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "质量效应",
@@ -491,6 +505,7 @@
       基本信息: {
         馆藏编号: "No.0013",
         名称: "威尔卡斯（Vilkas）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/114243ec9ubt996gxzubzh.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "上古卷轴Ⅴ",
@@ -509,25 +524,25 @@
       等级数据: [
         {
           等级: '等级1 威尔卡斯',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/114243ec9ubt996gxzubzh.gif",
+          图片: "https://img.gamemale.com/album/201401/01/114250lsaw2aynywna6gae.gif",
           属性: "无属性",
           升级条件: "消耗10血液"
         },
         {
           等级: '等级2 威尔卡斯',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/114243ec9ubt996gxzubzh.gif",
+          图片: "https://img.gamemale.com/album/201401/01/114250lsaw2aynywna6gae.gif",
           属性: "无属性",
           升级条件: "消耗30血液"
         },
         {
           等级: '等级3 威尔卡斯',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/114243ec9ubt996gxzubzh.gif",
+          图片: "https://img.gamemale.com/album/201401/01/114250lsaw2aynywna6gae.gif",
           属性: "无属性",
           升级条件: "消耗60血液"
         },
         {
           等级: '等级Max 威尔卡斯',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/114243ec9ubt996gxzubzh.gif",
+          图片: "https://img.gamemale.com/album/201401/01/114250lsaw2aynywna6gae.gif",
           属性: "发帖 灵魂 +1 触发概率 2%",
         },
       ],
@@ -537,6 +552,7 @@
       基本信息: {
         馆藏编号: "No.0014",
         名称: "克里斯·雷德菲尔德（Chris Redfield）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110850hd0szkhyeseme07m.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "生化危机",
@@ -555,27 +571,27 @@
       等级数据: [
         {
           等级: '等级1 克里斯·雷德菲尔德',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110850hd0szkhyeseme07m.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110854wecejl2082gbhg3c.gif",
           属性: "回帖 血液 +1、发帖 血液 +1，触发几率 3%",
           升级条件: "血液 ≥ 30"
         },
         {
           等级: '等级2 克里斯·雷德菲尔德',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110850hd0szkhyeseme07m.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110859kr82uubuy4q25cr5.gif",
           属性: "回帖 血液 +2、发帖 血液 +2，触发几率 3%",
           升级条件: "追随 ≥ 50"
         },
         {
           等级: '等级3 克里斯·雷德菲尔德',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110850hd0szkhyeseme07m.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110904gxcccooo51hz733h.gif",
           属性: "回帖 血液 +2、发帖 血液 +2 旅程 +1，触发几率 4%",
           升级条件: "追随 ≥ 100"
         },
         {
           等级: '等级4 克里斯·雷德菲尔德',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110850hd0szkhyeseme07m.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110916nrxt3tztmta1axzr.gif",
           属性: "回帖 血液 +2 旅程 +1、发帖 血液 +2 旅程 +1，触发几率 5%",
-          升级条件: "消耗100点血液"
+          升级条件: "消耗 100 点血液"
         },
         {
           等级: '等级Max 克里斯·雷德菲尔德',
@@ -589,6 +605,7 @@
       基本信息: {
         馆藏编号: "No.0015",
         名称: "一丝不挂克里斯（Naked Chris）|裸体克里斯",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/110459avhufexivpuhkfue.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "生化危机",
@@ -607,7 +624,7 @@
       等级数据: [
         {
           等级: '等级Max 裸体克里斯',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/110459avhufexivpuhkfue.gif",
+          图片: "https://img.gamemale.com/album/201401/01/110459avhufexivpuhkfue.gif",
           属性: "回帖 金币 +1、发帖 金币 +1，触发几率 100%",
         },
       ],
@@ -617,6 +634,7 @@
       基本信息: {
         馆藏编号: "No.0016",
         名称: "凯登‧阿兰科（Kaidan Alenko）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/114433lqyzga88gtwbr8j3.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "质量效应",
@@ -632,22 +650,22 @@
       },
       属性: ['普通类徽章', '金币向徽章', '可回收、可寄售、可赠送、不可续期'],
       简介: "Kaidan Alenko，生于2151年，少数有「异能」专长的特战队员。异能天赋来源于还在他母亲肚子里时曾经长时间的暴露于零号元素中，但是他没有脑癌的疾病，反而为异能人生铺下了基石。 凯登的身上连接着L2植入体，L2植入体是一种可能对使用者造成神经性伤害的植入体，但是幸运的他只有间歇性地头痛而已。 也因此原本亦属于星联海军(海军?)，却也L2植入体让他经常头疼眼花，所以对噪音以及亮光非常敏感，最后被移至安德森旗下，这也成为了与薛普德见面的契机。之后对薛普德一生而言凯登占有着很重要地位，有着无法失去彼此的关系...",
-      属性: "回帖 金币 +1，触发概率 5%",
       等级数据: [
         {
           等级: '等级1 凯登‧阿兰科',
-          图片: "https://img.gamemale.com/forum/201911/20/152215dvjf1lxx43vgdglg.gif",
+          图片: "https://img.gamemale.com/album/201401/01/114439r1ppqs7ssh0etw5w.gif",
+          属性: "回帖 金币 +1，触发概率 5%",
           升级条件: "消耗20血液"
         },
         {
           等级: '等级2 凯登‧阿兰科',
-          图片: "https://img.gamemale.com/forum/201911/20/152215dvjf1lxx43vgdglg.gif",
+          图片: "https://img.gamemale.com/album/201401/01/114444vlzkj3k94rhr9m5k.gif",
           属性: "回帖 金币 +1 血液 +1，触发概率 5%",
           升级条件: "血液 ≥ 60"
         },
         {
           等级: '等级3 凯登‧阿兰科',
-          图片: "https://img.gamemale.com/forum/201911/20/152215dvjf1lxx43vgdglg.gif",
+          图片: "https://img.gamemale.com/album/201401/01/114448waxs6u72ntccuxul.gif",
           属性: "回帖 金币 +1 血液 +1，触发概率 7%",
           升级条件: "消耗150金币"
         },
@@ -665,7 +683,7 @@
         },
         {
           等级: '等级Max 凯登‧阿兰科',
-          图片: "https://img.gamemale.com/album/201401/01/114453v68m922av4a5mtaa.gif",
+          图片: "https://img.gamemale.com/album/201401/01/114516anrkkka88jfkfh0i.gif",
           属性: "回帖 金币 +1 血液 +1、发帖 金币 +1 血液 +1，触发概率 50%",
         },
       ],
@@ -675,6 +693,7 @@
       基本信息: {
         馆藏编号: "No.0017",
         名称: "肥皂（John“Soap”MacTavish）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/111035g710wwrrqwzx6e46.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "使命召唤‧现代战争",
@@ -698,7 +717,7 @@
         },
         {
           等级: '等级2 肥皂',
-          图片: "https://img.gamemale.com/forum/202405/01/003839k8m4qqhqg478diie.gif",
+          图片: "https://img.gamemale.com/forum/202405/01/003840zc3xqwaqlllwca0y.gif",
           属性: "回帖 金币 +1、发帖 金币 +5，触发概率 3%",
           升级条件: "消耗150金币"
         },
@@ -716,13 +735,13 @@
         },
         {
           等级: '等级5 肥皂',
-          图片: "https://img.gamemale.com/forum/202405/02/141925nz8t6x6gtx8krhry.gif",
+          图片: "https://img.gamemale.com/forum/202405/01/003840b989579tiybc0b90.gif",
           属性: "回帖 金币 +1、发帖 金币 +5，触发概率 12%",
           升级条件: "升级后获得200金币"
         },
         {
           等级: '等级Max 肥皂',
-          图片: "https://img.gamemale.com/forum/202405/02/141925nz8t6x6gtx8krhry.gif",
+          图片: "https://img.gamemale.com/forum/202307/04/135701omenvlwlsyh7mm4a.gif",
           属性: "回帖 金币 +2、发帖 金币 +5 旅程 +1，触发概率 12%",
         },
       ],
@@ -732,6 +751,7 @@
       基本信息: {
         馆藏编号: "No.0018",
         名称: "奥利弗‧奎恩",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/04/121407cno5knoee5eok3cu.gif",
         状态: "流通",
         分类: "真人男从",
         来源: "绿箭侠",
@@ -748,19 +768,19 @@
       等级数据: [
         {
           等级: '等级1 奥利弗‧奎恩',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/04/121407cno5knoee5eok3cu.gif",
+          图片: "https://img.gamemale.com/album/201401/04/121410iocnbobhqdrdraoq.gif",
           属性: "发帖 血液 +2，触发几率 5%",
           升级条件: "消耗40血液"
         },
         {
           等级: '等级2 奥利弗‧奎恩',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/04/121407cno5knoee5eok3cu.gif",
+          图片: "https://img.gamemale.com/album/201401/04/121414piiwnawiaknaitgm.gif",
           属性: "发帖 血液 +2，触发几率 7%",
           升级条件: "消耗65血液"
         },
         {
           等级: '等级3 奥利弗‧奎恩',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/04/121407cno5knoee5eok3cu.gif",
+          图片: "https://img.gamemale.com/album/201401/04/121418fswmv8vg2v6ov2w6.gif",
           属性: "发帖 血液 +2，触发几率 9%",
           升级条件: "主題数 ≥ 15"
         },
@@ -772,7 +792,7 @@
         },
         {
           等级: '等级5 奥利弗‧奎恩',
-          图片: "https://img.gamemale.com/album/201401/04/121426l39rbb8i9gm8iz38.gif",
+          图片: "https://img.gamemale.com/album/201401/04/121434tud538ov9d99d009.gif",
           属性: "发帖 血液 +2、回帖 血液 +1，触发几率 13%",
           升级条件: "消耗30堕落（推测）"
         },
@@ -788,6 +808,7 @@
       基本信息: {
         馆藏编号: "No.0019",
         名称: "送情书",
+        "图片": "https://img.gamemale.com/album/201507/02/113350j47rr1f17qq4nafs.gif",
         状态: "流通",
         分类: "赠礼",
         勋章ID: '19',
@@ -814,6 +835,7 @@
       基本信息: {
         馆藏编号: "No.0020",
         名称: "丢肥皂",
+        "图片": "https://img.gamemale.com/album/201507/02/113346zfvtihpznujw1nii.gif",
         状态: "流通",
         分类: "赠礼",
         勋章ID: '20',
@@ -840,6 +862,7 @@
       基本信息: {
         馆藏编号: "No.0021",
         名称: "千杯不醉",
+        "图片": "https://img.gamemale.com/album/201507/02/113342to7t7zj24jot5s7t.gif",
         状态: "流通",
         分类: "赠礼",
         勋章ID: '45',
@@ -866,6 +889,7 @@
       基本信息: {
         馆藏编号: "No.0022",
         名称: "灵光补脑剂",
+        "图片": "https://img.gamemale.com/album/201507/02/113409q011xcf550bav1a5.gif",
         状态: "流通",
         分类: "赠礼",
         勋章ID: '46',
@@ -898,6 +922,7 @@
       基本信息: {
         馆藏编号: "No.0023",
         名称: "贞洁内裤",
+        "图片": "https://img.gamemale.com/album/201903/30/161516ru7icoon7s8zv5ac.gif",
         状态: "已下架",
         分类: "赠礼",
         时效: '30 天',
@@ -916,7 +941,7 @@
       等级数据: [
         {
           等级: '等级Max 贞洁内裤',
-          图片: "https://img.gamemale.com/album/201903/30/161516ru7icoon7s8zv5ac.gif",
+          图片: "https://img.gamemale.com/album/201401/01/191959nyfyv2b6v1hppbp6.gif",
           简介: "在街上站了一夜也没有客人将你接走，你心里已经对未来产生了怀疑，回到家时天已经亮了，拆开门口的包裹，你看到了一条贞操内裤，你知道这是来自他的关心，这次你终于决定接受，忘掉过去糜烂的生活。",
           属性: "回帖 血液 +3 堕落 -1，触发几率 13%",
         },
@@ -926,6 +951,7 @@
       基本信息: {
         馆藏编号: "No.0024",
         名称: "炼金之心",
+        "图片": "https://img.gamemale.com/album/201401/01/191959nyfyv2b6v1hppbp6.gif",
         状态: "流通",
         分类: "咒术",
         勋章ID: '14',
@@ -969,6 +995,7 @@
       基本信息: {
         馆藏编号: "No.0025",
         名称: "黑暗交易",
+        "图片": "https://img.gamemale.com/album/201507/02/114519abfjffbp2jpdpy9n.gif",
         状态: "流通",
         分类: "咒术",
         勋章ID: '51',
@@ -1009,6 +1036,7 @@
       基本信息: {
         馆藏编号: "No.0026",
         名称: "水泡术",
+        "图片": "https://img.gamemale.com/album/201507/02/114427z0y3lkpzgk46gnp5.gif",
         状态: "流通",
         分类: "咒术",
         勋章ID: '43',
@@ -1025,14 +1053,14 @@
       等级数据: [
         {
           等级: '等级1 水泡术',
-          图片: "https://img.gamemale.com/album/201507/02/114427z0y3lkpzgk46gnp5.gif",
+          图片: "https://img.gamemale.com/album/201507/02/114428v66p06kdhy0zbcad.gif",
           简介: "受到敌方的水泡术攻击！越来越多的泡沫挤满了空间，除了碍眼外...却没有任何作用...",
           属性: "无属性",
           升级条件: "知识 ≥ 6"
         },
         {
           等级: '等级2 水泡术',
-          图片: "https://img.gamemale.com/album/201507/02/114427z0y3lkpzgk46gnp5.gif",
+          图片: "https://img.gamemale.com/album/201507/02/114428kgmamyizamwjjl1g.gif",
           简介: "受到敌方的水泡术攻击！越来越多的泡沫挤满了空间，除了碍眼外...却没有任何作用...(灵光一闪！)",
           属性: "无属性",
           升级条件: "升级后获得10血液"
@@ -1049,6 +1077,7 @@
       基本信息: {
         馆藏编号: "No.0027",
         名称: "召唤古代战士",
+        "图片": "https://img.gamemale.com/album/201507/02/114440h1op1p51o3woiip6.gif",
         状态: "流通",
         分类: "咒术",
         勋章ID: '44',
@@ -1063,12 +1092,6 @@
       属性: ['增益类徽章', '（召唤战士，杀得血流成河！！）', '可回收、不可寄售、可续期'],
       特殊: ['增益类徽章，可以更好的为用户带来利益。', '（啊啊啊~~卡住了~~~~）'],
       等级数据: [
-        {
-          等级: '等级0 召唤古代战士',
-          图片: "https://img.gamemale.com/album/201507/02/114440h1op1p51o3woiip6.gif",
-          属性: "无属性",
-          升级条件: "无"
-        },
         {
           等级: '等级1 召唤古代战士',
           图片: "https://img.gamemale.com/album/201507/02/114441t4f5yx5yxuuybu65.gif",
@@ -1088,6 +1111,7 @@
       基本信息: {
         馆藏编号: "No.0028",
         名称: "祈祷术",
+        "图片": "https://img.gamemale.com/album/201507/02/114506f59lkml9n9k5nmst.gif",
         状态: "流通",
         分类: "咒术",
         勋章ID: '61',
@@ -1157,6 +1181,7 @@
       基本信息: {
         馆藏编号: "No.0029",
         名称: "嗜血斩首斧",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/115656oy8nrt00r8hmtz8n.gif",
         状态: "绝版",
         分类: "装备",
         关键属性: ['堕落'],
@@ -1183,6 +1208,7 @@
       基本信息: {
         馆藏编号: "No.0030",
         名称: "符文披风",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/115649ube4qud0b87brby4.gif",
         状态: "绝版",
         分类: "装备",
         关键属性: ['咒术'],
@@ -1209,6 +1235,7 @@
       基本信息: {
         馆藏编号: "No.0031",
         名称: "净化手杖",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/115614yzes0zddsdawxwud.gif",
         状态: "流通",
         分类: "装备",
         关键属性: ['堕落', '咒术'],
@@ -1225,13 +1252,13 @@
       等级数据: [
         {
           等级: '等级1 净化手杖',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/115614yzes0zddsdawxwud.gif",
+          图片: "https://img.gamemale.com/forum/202303/11/034543gk9k2d39fj1ujnnz.gif",
           属性: "发帖 堕落 -1，触发几率 10%",
           升级条件: "在线时间 ≥ 800"
         },
         {
           等级: '等级Max 圣光手杖',
-          图片: "https://www.gamemale.com/data/attachment/album/201401/01/115614yzes0zddsdawxwud.gif",
+          图片: "https://img.gamemale.com/forum/202303/11/034544auumpv1im1i2apcy.gif",
           简介: '带有光芒刺眼的神圣法力手杖，因为持有者内心善良，手杖的威力已经升级并且更加强大。持续的消除败坏的气息，让邪恶远远的离开持有者。',
           属性: "回帖 堕落 -1 咒术 +1、发帖 堕落 -1，触发几率 20%",
         },
@@ -1241,6 +1268,7 @@
       基本信息: {
         馆藏编号: "No.0032",
         名称: "十字叶章",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/115601vddbdnp2n5nodpbp.gif",
         状态: "绝版",
         分类: "装备",
         关键属性: ['咒术', '堕落', '灵魂'],
@@ -1282,6 +1310,7 @@
       基本信息: {
         馆藏编号: "No.0033",
         名称: "刺杀者匕首",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/115610sh667p0s6hoh0h6l.gif",
         状态: "绝版",
         分类: "装备",
         关键属性: ['金币'],
@@ -1308,6 +1337,7 @@
       基本信息: {
         馆藏编号: "No.0034",
         名称: "药剂背袋",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/115659t6qz4z0b4v9kbv0d.gif",
         状态: "绝版",
         分类: "装备",
         关键属性: ['血液'],
@@ -1334,6 +1364,7 @@
       基本信息: {
         馆藏编号: "No.0035",
         名称: "知识大典",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/191007euxdoxrss8vvkhku.gif",
         状态: "绝版",
         分类: "资产",
         关键属性: ['知识'],
@@ -1360,6 +1391,7 @@
       基本信息: {
         馆藏编号: "No.0036",
         名称: "微笑的面具",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/191029j7cnvk6h6o7o3fze.png",
         状态: "绝版",
         分类: "资产",
         关键属性: ['堕落'],
@@ -1423,6 +1455,7 @@
       基本信息: {
         馆藏编号: "No.0037",
         名称: "种植小草",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/04/052957fm9cm4urd9bdtmqu.png",
         状态: "绝版",
         分类: "资产",
         关键属性: ['血液'],
@@ -1479,6 +1512,7 @@
       基本信息: {
         馆藏编号: "No.0038",
         名称: "聚魔花盆",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/135930nmmqx1bi4pqy99pm.gif",
         状态: "流通",
         分类: "资产",
         关键属性: ['咒术'],
@@ -1531,14 +1565,14 @@
         },
         {
           等级: '等级6 聚魔花盆',
-          图片: "未知",
+          图片: "https://img.gamemale.com/album/201401/01/140020jpjnqc2nykzll38j.gif",
           简介: "来自法师公会的魔法圣物，可以聚集许多魔力。经过自己的 知识与技术用心栽培，魔花的成长非常良好！",
           属性: "发帖 咒术 +3，触发几率 60%",
           升级条件: "堕落 ≥ 30"
         },
         {
           等级: '等级Max 聚魔花盆',
-          图片: "未知",
+          图片: "",
           简介: "来自法师公会的魔法圣物，可以聚集许多魔力。成长状态良好的魔花似乎也接受到自己堕落的影响，导致慢慢枯萎掉....",
           属性: "发帖 咒术 +3，触发几率 30%",
         },
@@ -1548,6 +1582,7 @@
       基本信息: {
         馆藏编号: "No.0039",
         名称: "金钱马车",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/03/051319wkbkknlwnn52lnak.gif",
         状态: "绝版",
         分类: "资产",
         关键属性: ['金币', '血液', '知识', '咒术', '灵魂'],
@@ -1889,6 +1924,7 @@
       基本信息: {
         馆藏编号: "No.0040",
         名称: "牧羊人",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/192052sp555m3x3rx1b44x.gif",
         状态: "流通",
         分类: "天赋",
         关键属性: ['旅程'],
@@ -1927,6 +1963,7 @@
       基本信息: {
         馆藏编号: "No.0041",
         名称: "森林羊男",
+        "图片": "https://www.gamemale.com/data/attachment/album/201401/01/192107axq7ixrlrc67rxc2.gif",
         状态: "流通",
         分类: "天赋",
         关键属性: ['知识'],
@@ -1951,6 +1988,7 @@
       基本信息: {
         馆藏编号: "No.0042",
         名称: "被祝福の新旅程",
+        "图片": "https://img.gamemale.com/album/201903/30/161303x917gzpwzz3co882.gif",
         状态: "流通",
         分类: "故事",
         关键属性: ['旅程'],
@@ -1973,6 +2011,7 @@
       基本信息: {
         馆藏编号: "No.0043",
         名称: "另一个身份",
+        "图片": "https://img.gamemale.com/album/201401/01/115527bgztx4ty4otxuoyu.gif",
         状态: "流通",
         分类: "故事",
         关键属性: ['金币'],
@@ -1995,6 +2034,7 @@
       基本信息: {
         馆藏编号: "No.0044",
         名称: "神之匠工",
+        "图片": "https://img.gamemale.com/album/201401/01/235436xs6fn5lkpnihlv06.gif",
         状态: "绝版",
         分类: "故事",
         关键属性: ['金币', '知识'],
@@ -2017,6 +2057,7 @@
       基本信息: {
         馆藏编号: "No.0045",
         名称: "Chris Redfield in Uroboros",
+        "图片": "https://img.gamemale.com/album/201903/30/161511gy22yvpidvdqxxqd.gif",
         状态: "流通",
         分类: "其他",
         关键属性: ['知识'],
@@ -2041,6 +2082,7 @@
       基本信息: {
         馆藏编号: "No.0046",
         名称: "站员薪俸",
+        "图片": "https://img.gamemale.com/album/201405/01/180022a0uuu66fujwuq0j0.gif",
         状态: "流通",
         分类: "薪俸",
         时效: '30 天',
@@ -2072,6 +2114,7 @@
       基本信息: {
         馆藏编号: "No.0047",
         名称: "实习版主薪俸",
+        "图片": "https://img.gamemale.com/album/201405/01/180038rucrervedv5r0due.gif",
         状态: "流通",
         分类: "薪俸",
         时效: '30 天',
@@ -2102,6 +2145,7 @@
       基本信息: {
         馆藏编号: "No.0048",
         名称: "版主薪俸",
+        "图片": "https://img.gamemale.com/album/201405/01/180010t9re9nonx8eb8z3n.gif",
         状态: "流通",
         分类: "薪俸",
         时效: '30 天',
@@ -2135,6 +2179,7 @@
       基本信息: {
         馆藏编号: "No.0049",
         名称: "梅格",
+        "图片": "https://www.gamemale.com/data/attachment/album/201403/19/093016rpdn65j07q0q0n6f.gif",
         状态: "流通",
         分类: "女从",
         关键属性: ['血液', '堕落'],
@@ -2174,6 +2219,7 @@
       基本信息: {
         馆藏编号: "No.0050",
         名称: "里昂·S·甘乃迪（Leon·S·Kennedy）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201403/19/090514dw2q2dcjveq2nlw9.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "生化危机",
@@ -2207,7 +2253,7 @@
           等级: '等级3 里昂·S·甘乃迪',
           图片: "https://img.gamemale.com/forum/202308/26/231747zxivxi40sixdvgkk.gif",
           属性: "回帖 金币 +1 血液 +1、发帖 金币 +1 血液 +1，触发概率 10%",
-          升级条件: '消耗300金币'
+          升级条件: '消耗 300 金币'
         },
         {
           等级: '等级4 里昂·S·甘乃迪',
@@ -2226,6 +2272,7 @@
       基本信息: {
         馆藏编号: "No.0051",
         名称: "重磅手环",
+        "图片": "https://www.gamemale.com/data/attachment/album/201403/20/105402f88clufxfhelcl8l.gif",
         状态: "流通",
         分类: "装备",
         关键属性: ['血液'],
@@ -2253,6 +2300,7 @@
       基本信息: {
         馆藏编号: "No.0052",
         名称: "亚力斯塔尔",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/173019leccemzcpscexe79.gif",
         状态: "流通",
         分类: "游戏男从",
         来源: "龙腾世纪",
@@ -2272,7 +2320,7 @@
       等级数据: [
         {
           等级: '等级1 亚力斯塔尔',
-          图片: "https://www.gamemale.com/data/attachment/album/201405/01/173019leccemzcpscexe79.gif",
+          图片: "https://img.gamemale.com/album/201405/01/173025wsibxvs0ywtbqpeq.gif",
           属性: "发帖 血液 +2，触发概率 5%",
           升级条件: "发帖数 ≥ 200"
         },
@@ -2299,6 +2347,7 @@
       基本信息: {
         馆藏编号: "No.0053",
         名称: "罗伯‧史塔克（Robb Stark）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/173400nlz4yzzvydul15df.gif",
         状态: "绝版",
         分类: "真人男从",
         来源: "冰与火之歌",
@@ -2369,6 +2418,7 @@
       基本信息: {
         馆藏编号: "No.0054",
         名称: "亚当‧简森（Adam Jensen）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/173353hye43yixgzz2jvxs.gif",
         状态: "绝版",
         分类: "游戏男从",
         来源: "杀出重围",
@@ -2421,6 +2471,7 @@
       基本信息: {
         馆藏编号: "No.0055",
         名称: "猫化弩哥（Daryl Dixon）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/173353hye43yixgzz2jvxs.gif",
         状态: "绝版",
         分类: "真人男从",
         来源: "美剧.行尸走肉",
@@ -2448,6 +2499,7 @@
       基本信息: {
         馆藏编号: "No.0056",
         名称: "吞食魂魄",
+        "图片": "https://img.gamemale.com/album/201507/02/114452nmqdcqpwmtllzmwq.gif",
         状态: "流通",
         分类: "咒术",
         勋章ID: '73',
@@ -2471,7 +2523,7 @@
         },
         {
           等级: '等级2 狼狈噬魂者',
-          图片: "https://img.gamemale.com/album/201507/02/114452vbww9wpt9cr8n999.gif",
+          图片: "https://img.gamemale.com/forum/202205/19/200758b4n4y24k8sq824b1.gif",
           简介: "你刚刚吃掉了一只灵魂，一点也不剩。",
           属性: "无属性",
           升级条件: "堕落 ≥ 10"
@@ -2488,6 +2540,7 @@
       "基本信息": {
         "馆藏编号": "No.0057",
         "名称": "超级名贵无用宝剑",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/175008icuedsbvi0btdc7c.gif",
         "状态": "流通",
         "分类": "装备",
         "关键属性": "无",
@@ -2504,11 +2557,6 @@
       "特殊": ["在论坛恢复后随勋章系统重开补货20枚（居然卖出去三枚！）", "（有钱，任性！）"],
       "等级数据": [
         {
-          "等级": "等级0 超级名贵无用宝剑",
-          "图片": "https://www.gamemale.com/data/attachment/album/201405/01/175008icuedsbvi0btdc7c.gif",
-          "属性": "无属性"
-        },
-        {
           "等级": "等级Max 超级名贵无用宝剑",
           "图片": "https://img.gamemale.com/forum/202110/14/034136rmmtnnnsgwmetroe.gif",
           "属性": "无属性"
@@ -2519,6 +2567,7 @@
       "基本信息": {
         "馆藏编号": "No.0058",
         "名称": "念念往日士官盔",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/174958c2f55oo3o5oa7oz4.gif",
         "状态": "绝版",
         "分类": "装备",
         "关键属性": ["金币", "血液"],
@@ -2545,6 +2594,7 @@
       "基本信息": {
         "馆藏编号": "No.0059",
         "名称": "流失之椅",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/171207rxnzlirqp94pl7bn.gif",
         "状态": "绝版",
         "绝版时间": "2019.9.9",
         "分类": "资产",
@@ -2621,6 +2671,7 @@
       "基本信息": {
         "馆藏编号": "No.0060",
         "名称": "漂洋小船",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/171723rvuz4f4b4fsbeb4e.gif",
         "状态": "绝版",
         "绝版时间": "2019.3.22",
         "分类": "资产",
@@ -2652,6 +2703,7 @@
       "基本信息": {
         "馆藏编号": "No.0061",
         "名称": "种植菠菜",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/171259oafejqs58fajzn9m.gif",
         "状态": "绝版",
         "分类": "资产",
         "关键属性": ["血液"],
@@ -2732,6 +2784,7 @@
       "基本信息": {
         "馆藏编号": "No.0062",
         "名称": "洞窟魔蛋",
+        "图片": "https://img.gamemale.com/forum/201905/29/222602pani0l8yesrn6ez9.gif",
         "状态": "绝版",
         "分类": "宠物",
         "勋章ID": "",
@@ -2785,6 +2838,7 @@
       "基本信息": {
         "馆藏编号": "No.0063",
         "名称": "夜灯",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/171125vwtp0pww2ppe5090.gif",
         "状态": "再次绝版",
         "分类": "资产",
         "关键属性": ["血液"],
@@ -2854,6 +2908,7 @@
       "基本信息": {
         "馆藏编号": "No.0064",
         "名称": "诺曼底号",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/171557wcqy8iqizs9q02l8.gif",
         "状态": "绝版",
         "分类": "资产",
         "来源": "质量效应",
@@ -2921,6 +2976,7 @@
       "基本信息": {
         "馆藏编号": "No.0065",
         "名称": "堕落之舞",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/171912gzkc7k02p70qukpl.gif",
         "状态": "流通",
         "分类": "天赋",
         "来源": "无",
@@ -2953,6 +3009,7 @@
       "基本信息": {
         "馆藏编号": "No.0066",
         "名称": "黄色就是俏皮",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/171859sn0wl09nwezwqnbf.gif",
         "状态": "流通",
         "分类": "天赋",
         "来源": "蒙面光战队",
@@ -2990,6 +3047,7 @@
       "基本信息": {
         "馆藏编号": "No.0067",
         "名称": "骑兽之子",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/171918yc1aewqctecne2ha.gif",
         "状态": "流通",
         "分类": "普通类徽章",
         "关键属性": ["血液", "咒术"],
@@ -3028,6 +3086,7 @@
       "基本信息": {
         "馆藏编号": "No.0068",
         "名称": "质量效应三部曲",
+        "图片": "https://img.gamemale.com/album/201405/01/174305dmpmksft301qms0m.gif",
         "状态": "流通",
         "分类": "场景&版块",
         "关键属性": ["血液"],
@@ -3059,6 +3118,7 @@
       "基本信息": {
         "馆藏编号": "No.0069",
         "名称": "五花八门版块",
+        "图片": "https://img.gamemale.com/album/201405/01/174322ul9luxwgjwtbxlxe.gif",
         "状态": "流通",
         "分类": "场景&版块",
         "关键属性": ["咒术"],
@@ -3090,6 +3150,7 @@
       "基本信息": {
         "馆藏编号": "No.0070",
         "名称": "辐射：新维加斯",
+        "图片": "https://img.gamemale.com/album/201405/01/174314fjxmojar2mj3zjmj.gif",
         "状态": "流通",
         "分类": "场景&版块",
         "关键属性": ["堕落"],
@@ -3121,6 +3182,7 @@
       "基本信息": {
         "馆藏编号": "No.0071",
         "名称": "TRPG版块",
+        "图片": "https://img.gamemale.com/album/201405/09/060720njwty9kstktd9j0a.gif",
         "状态": "流通",
         "分类": "场景&版块",
         "关键属性": ["咒术"],
@@ -3152,6 +3214,7 @@
       "基本信息": {
         "馆藏编号": "No.0072",
         "名称": "上古卷轴V：天际",
+        "图片": "https://img.gamemale.com/album/201405/01/174258j1pqpz5j1tj31jce.gif",
         "状态": "绝版",
         "分类": "场景&版块",
         "关键属性": ["金币"],
@@ -3186,6 +3249,7 @@
       "基本信息": {
         "馆藏编号": "No.0073",
         "名称": "一只可爱的小猫",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/175339d1fts7fi6t62pci6.gif",
         "状态": "绝版",
         "分类": "奖品",
         "关键属性": ["血液", "咒术"],
@@ -3221,6 +3285,7 @@
       "基本信息": {
         "馆藏编号": "No.0074",
         "名称": "猫眼",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/01/175335t62paomgyypj4mgo.gif",
         "状态": "绝版",
         "分类": "奖品",
         "关键属性": ["金币", "灵魂"],
@@ -3249,6 +3314,7 @@
       "基本信息": {
         "馆藏编号": "No.0075",
         "名称": "謎の男",
+        "图片": "https://www.gamemale.com/data/attachment/album/201405/27/053849pcxck22cgopzk2m2.gif",
         "状态": "绝版",
         "分类": "奖品",
         "关键属性": ["血液"],
@@ -3278,6 +3344,7 @@
       "基本信息": {
         "馆藏编号": "No.0076",
         "名称": "布莱恩·欧康纳（Brian O`Conner）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/22/044719ovzvvd53v5g513sv.gif",
         "状态": "绝版",
         "分类": "真人男从",
         "关键属性": ["金币", "旅程"],
@@ -3335,6 +3402,7 @@
       "基本信息": {
         "馆藏编号": "No.0077",
         "名称": "迪恩‧温彻斯特（Dean Winchester）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/22/042343bmmgksi8pqsikqij.gif",
         "状态": "绝版",
         "分类": "真人男从",
         "关键属性": ["血液"],
@@ -3395,6 +3463,7 @@
       "基本信息": {
         "馆藏编号": "No.0078",
         "名称": "山姆‧温彻斯特（Sam Winchester）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/22/042330c9ae0jehav9yih3i.gif",
         "状态": "绝版",
         "分类": "真人男从",
         "关键属性": ["金币"],
@@ -3427,7 +3496,7 @@
         },
         {
           "等级": "等级2 山姆‧温彻斯特",
-          "图片": "https://img.gamemale.com/album/201406/22/042331zbo7uoul9j9909u4.gif",
+          "图片": "https://img.gamemale.com/album/201406/22/042331dh9zin91n7ahznhe.gif",
           "简介": "",
           "属性": "回帖 金币 +2，发帖 金币 +2，触发几率 4%",
           "升级条件": "咒术 ≥ 50"
@@ -3441,7 +3510,7 @@
         },
         {
           "等级": "等级4 山姆‧温彻斯特",
-          "图片": "https://img.gamemale.com/album/201406/22/042333v4ohb8w9ort7axaa.gif",
+          "图片": "https://img.gamemale.com/album/201406/22/042335l31xcfw1g7bbg7gg.gif",
           "简介": "",
           "属性": "回帖 金币 +2，发帖 金币 +2，触发几率 8%",
           "升级条件": "消耗 350 金币"
@@ -3458,6 +3527,7 @@
       "基本信息": {
         "馆藏编号": "No.0079",
         "名称": "魔术师奥斯卡（Magician Oscar）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/30/220941ut7nner0e4uiytdy.gif",
         "状态": "流通",
         "分类": "真人男从",
         "关键属性": ["堕落", "咒术", "知识"],
@@ -3530,6 +3600,7 @@
       "基本信息": {
         "馆藏编号": "No.0080",
         "名称": "卡斯迪奥（Castiel）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/22/042225qm3ayl1kktnqmqqa.gif",
         "分类": "真人男从",
         "状态": "流通",
         "关键属性": ["堕落", "血液", "灵魂", "金币"],
@@ -3618,6 +3689,7 @@
       "基本信息": {
         "馆藏编号": "No.0081",
         "名称": "虎克船长（Captain Hook）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/30/220903efk7bt8ppod2uv8k.gif",
         "分类": "真人男从",
         "状态": "绝版",
         "关键属性": ["旅程", "堕落", "咒术", "知识"],
@@ -3631,7 +3703,7 @@
         "寄售中介费": "10%",
         "作者": ["残羽恶魔", "https://www.gamemale.com/?588409"]
       },
-      "简介": "由 Colin O'Donoghue 在《童话镇》中饰演的 Captain Hook，不仅英俊的外表遮掩不住坏坏的痞气。虽为海盗，却拥有强大的英伦绅士气场，虽为配角，却从登场开始就深受少女和众基佬喜爱。对女主角 Emma Swan 的爱，绝对称得上是忠犬级别！从剧情发展上看，已经越来越接近官配了。这么一只忠犬确实异性恋，太可惜了。不过，船长的航海技术很给力，独特的航海技术使得船长可以在多个世界大陆之间航行，只要有海，就没有船长到不了的地方~",
+      "简介": "由 Colin O'Donoghue 在《童话镇》中饰演的 Captain Hook，不仅英俊的外表遮掩不住坏坏的痞气。虽为海盗，却拥有强大的英伦绅士气场，虽为配角，却从登场开始就深受少女和众基佬喜爱。对女主角 Emma Swan 的爱，绝对称得上是忠犬级别！从剧情发展上看，已经越来越接近官配了。这么一只忠犬确是异性恋，太可惜了。不过，船长的航海技术很给力，独特的航海技术使得船长可以在多个世界大陆之间航行，只要有海，就没有船长到不了的地方~",
       "属性": [
         "普通类徽章",
         "旅程向徽章",
@@ -3684,6 +3756,7 @@
       "基本信息": {
         "馆藏编号": "No.0082",
         "名称": "卢西亚诺‧科斯塔（Luciano Costa）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/30/220851dnxgaans2kwrfrek.gif",
         "分类": "真人男从",
         "状态": "绝版",
         "关键属性": ["血液"],
@@ -3725,6 +3798,7 @@
       "基本信息": {
         "馆藏编号": "No.0083",
         "名称": "史蒂夫‧金克斯（Steve Jinks）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/22/042416qm509111tm545g22.gif",
         "状态": "绝版",
         "分类": "真人男从",
         "关键属性": ["咒术", "堕落"],
@@ -3766,6 +3840,7 @@
       "基本信息": {
         "馆藏编号": "No.0084",
         "名称": "遗忘之水",
+        "图片": "https://img.gamemale.com/album/201507/02/113358ltdxvdxwc2n1an25.gif",
         "状态": "流通",
         "分类": "赠礼",
         "时效": "30天",
@@ -3820,6 +3895,7 @@
       "基本信息": {
         "馆藏编号": "No.0085",
         "名称": "咆哮诅咒",
+        "图片": "https://img.gamemale.com/album/201507/02/114500je50kb57xgkx28jx.gif",
         "状态": "流通",
         "分类": "咒术",
         "关键属性": ["堕落", "血液"],
@@ -3852,6 +3928,7 @@
       "基本信息": {
         "馆藏编号": "No.0086",
         "名称": "充满魔力的种子",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/04/062927m9ebkgue4mgee51t.gif",
         "状态": "绝版",
         "分类": "资产",
         "关键属性": ["知识", "咒术", "金币"],
@@ -3910,6 +3987,7 @@
       "基本信息": {
         "馆藏编号": "No.0087",
         "名称": "木柴堆",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/04/062907nquu1iq616xzp522.jpg",
         "状态": "绝版",
         "分类": "资产",
         "关键属性": ["金币", "旅程"],
@@ -3965,6 +4043,7 @@
       "基本信息": {
         "馆藏编号": "No.0088",
         "名称": "暗红矿土",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/04/062919pjbqql3qs3b6chbc.gif",
         "状态": "绝版",
         "分类": "资产",
         "关键属性": ["血液", "堕落", "咒术"],
@@ -4020,6 +4099,7 @@
       基本信息: {
         馆藏编号: "No.0089",
         名称: "神秘的邀请函",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/04/063000l7pph1zupc7u7ufc.gif",
         状态: "绝版",
         分类: "资产",
         关键属性: ["成长类徽章"],
@@ -4089,6 +4169,7 @@
       基本信息: {
         馆藏编号: "No.0090",
         名称: "迷之Doge",
+        "图片": "https://img.gamemale.com/forum/201905/29/212609onn66k423wb9e9o6.gif",
         状态: "绝版",
         分类: "宠物",
         关键属性: ["金币", "咒术"],
@@ -4112,17 +4193,17 @@
       等级数据: [
         {
           等级: "等级1 喜欢金币的Doge",
-          图片: "https://img.gamemale.com/forum/201905/29/212609onn66k423wb9e9o6.gif",
+          图片: "https://img.gamemale.com/forum/202112/18/005018jmftf7eee72begg6.gif",
           简介: "Doge看上去很喜欢亮闪闪的金币，所以一定要满足它的需求呦~",
           属性: "回帖 血液 +1 金币 +1，触发概率 2%",
-          升级条件: "50金币"
+          升级条件: "消耗 50 金币"
         },
         {
           等级: "等级2 吃掉金币的Doge",
-          图片: "https://img.gamemale.com/forum/201905/29/212609onn66k423wb9e9o6.gif",
+          图片: "https://img.gamemale.com/forum/202112/18/005018jmftf7eee72begg6.gif",
           简介: "Doge吃了一些金币，似乎并不满足，还想再要更多~",
           属性: "回帖 血液 +1 金币 +1，触发概率 4%",
-          升级条件: "50金币"
+          升级条件: "消耗 50 金币"
         },
         {
           等级: "等级Max 吃饱金币的Doge",
@@ -4136,6 +4217,7 @@
       "基本信息": {
         "馆藏编号": "No.0091",
         "名称": "龙腾世纪：审判",
+        "图片": "https://img.gamemale.com/album/201406/22/195732l4s9zq3qzjq9fj3b.gif",
         "状态": "绝版",
         "分类": "场景&版块",
         "来源": "龙腾世纪",
@@ -4168,6 +4250,7 @@
       "基本信息": {
         "馆藏编号": "No.0092",
         "名称": "堕落飨宴",
+        "图片": "https://img.gamemale.com/album/201903/30/161414dvtmfucbm5clc3cf.gif",
         "状态": "停售",
         "分类": "场景&版块",
         "来源": "无",
@@ -4359,6 +4442,7 @@
       "基本信息": {
         "馆藏编号": "No.0093",
         "名称": "TRPG纪念章",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/30/223239n422utsnz2dsn34l.gif",
         "状态": "绝版",
         "分类": "奖品",
         "来源": "无",
@@ -4396,6 +4480,7 @@
       "基本信息": {
         "馆藏编号": "No.0094",
         "名称": "迷之瓶",
+        "图片": "https://www.gamemale.com/data/attachment/album/201406/04/063021lah1nekaq2ofqafe.gif",
         "状态": "绝版",
         "分类": "奖品",
         "来源": "无",
@@ -4413,13 +4498,6 @@
       "属性": ["活动类奖励徽章", "不可回收, 不可寄售, 不可续期"],
       "特殊": ["（走过路过千万不要错过！买三送一啦！！！）"],
       "等级数据": [
-        {
-          "等级": "等级0 德拉克圣瓶",
-          "图片": "https://www.gamemale.com/data/attachment/album/201406/04/063021lah1nekaq2ofqafe.gif",
-          "简介": "",
-          "属性": "",
-          "升级条件": ""
-        },
         {
           "等级": "等级1 德拉克圣瓶",
           "图片": "https://img.gamemale.com/album/201406/04/063026bs6eoj6j3e7ufxso.gif",
@@ -4440,6 +4518,7 @@
       "基本信息": {
         "馆藏编号": "No.0095",
         "名称": "戴蒙‧萨尔瓦托（Damon Salvatore）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201407/15/031652zfmmemw4ezhf394p.gif",
         "状态": "流通",
         "分类": "真人男从",
         "来源": "美剧.吸血鬼日记",
@@ -4540,6 +4619,7 @@
       "基本信息": {
         "馆藏编号": "No.0096",
         "名称": "库伦(起源)（Cullen (Origins)）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201407/15/085930i76bcybcgpkc7byp.gif",
         "状态": "绝版",
         "分类": "游戏男从",
         "来源": "龙腾世纪",
@@ -4577,6 +4657,7 @@
       "基本信息": {
         "馆藏编号": "No.0097",
         "名称": "安德森&‧戴维斯（Anderson Davis）",
+        "图片": "https://www.gamemale.com/data/attachment/album/201407/15/085919le1e83bkpk23efbf.gif",
         "状态": "绝版",
         "分类": "奖品",
         "来源": "卡夫沙拉酱广告",
@@ -4653,6 +4734,7 @@
       基本信息: {
         馆藏编号: "No.0098",
         名称: "圣英灵秘银甲",
+        "图片": "https://www.gamemale.com/data/attachment/album/201407/15/161131zcfofogcrcch3o3i.gif",
         状态: "绝版",
         分类: "装备",
         来源: "无",
@@ -4709,6 +4791,7 @@
       "基本信息": {
         "馆藏编号": "No.0099",
         "名称": "禽兽扒手",
+        "图片": "https://www.gamemale.com/data/attachment/album/201407/15/013006auhmh24puvmuuzmm.gif",
         "状态": "流通",
         "分类": "天赋",
         "来源": "无",
@@ -4901,6 +4984,7 @@
       "基本信息": {
         "馆藏编号": "No.0100",
         "名称": "奥兹大陆",
+        "图片": "https://img.gamemale.com/album/201407/15/162635kmxe70ce5zq0uqv0.gif",
         "状态": "绝版",
         "分类": "场景&版块",
         "来源": "电影.魔境仙踪",
@@ -4935,6 +5019,7 @@
       "基本信息": {
         "馆藏编号": "No.0101",
         "名称": "海上明月",
+        "图片": "https://img.gamemale.com/album/201502/26/013845sc3u3wpsbz4c04xz.gif",
         "状态": "绝版",
         "分类": "奖品",
         "关键属性": ["血液"],
@@ -4963,6 +5048,7 @@
       "基本信息": {
         "馆藏编号": "No.0102",
         "名称": "霍格沃茨五日游",
+        "图片": "https://img.gamemale.com/album/201507/02/114543q711gvjj1gb7181b.gif",
         "状态": "流通",
         "分类": "咒术",
         勋章ID: '119',
@@ -5029,6 +5115,7 @@
       "基本信息": {
         "馆藏编号": "No.0103",
         "名称": "铁杆影迷",
+        "图片": "https://img.gamemale.com/album/201502/21/225002lt3orcr25tctc6d4.gif",
         "状态": "绝版",
         "分类": "奖品",
         "来源": "",
@@ -5054,6 +5141,7 @@
       "基本信息": {
         "馆藏编号": "No.0104",
         "名称": "泡沫浮髅(Squirt)",
+        "图片": "https://img.gamemale.com/album/201502/24/001004cmj306jawj0w0yi6.gif",
         "状态": "绝版",
         "分类": "奖品",
         "来源": "游戏.堡垒(Bastion)",
@@ -5079,6 +5167,7 @@
       "基本信息": {
         "馆藏编号": "No.0105",
         "名称": "铁牛（Iron Bull）",
+        "图片": "https://img.gamemale.com/album/201503/02/215944wuf1jtg6stfszh6g.gif",
         "状态": "绝版",
         "分类": "真人男从",
         "来源": "龙腾世纪",
@@ -5127,6 +5216,7 @@
       "基本信息": {
         "馆藏编号": "No.0106",
         "名称": "康纳‧沃什（Connor Walsh）",
+        "图片": "https://img.gamemale.com/album/201503/09/012311hk77fkp7cnwr66dh.gif",
         "状态": "绝版",
         "分类": "真人男从",
         "来源": "美剧.逍遥法外",
@@ -5180,6 +5270,7 @@
       "基本信息": {
         "馆藏编号": "No.0107",
         "名称": "尼克·贝特曼（Nick Bateman）",
+        "图片": "https://img.gamemale.com/album/201503/16/144603lf4x8uohqs2zhfzs.gif",
         "状态": "流通",
         "分类": "真人男从",
         "来源": "无",
@@ -5247,6 +5338,7 @@
       "基本信息": {
         "馆藏编号": "No.0108",
         "名称": "尤利西斯（Ulises）",
+        "图片": "https://img.gamemale.com/album/201504/03/153556v6e3n9v4di73dd96.gif",
         "状态": "绝版",
         "分类": "真人男从",
         "来源": "西班牙电视剧.尤利西斯综合症",
@@ -5301,6 +5393,7 @@
       "基本信息": {
         "馆藏编号": "No.0109",
         "名称": "布衣",
+        "图片": "https://img.gamemale.com/album/201504/03/151928gwer8iiin3s3qsiy.gif",
         "状态": "绝版",
         "分类": "装备",
         "来源": "无",
@@ -5429,6 +5522,7 @@
       "基本信息": {
         "馆藏编号": "No.0110",
         "名称": "锻造卷轴",
+        "图片": "https://www.gamemale.com/data/attachment/album/201407/15/170730qtjiwj1kpstwktuk.gif",
         "状态": "绝版",
         "分类": "资产",
         "来源": "无",
@@ -5465,6 +5559,7 @@
       "基本信息": {
         "馆藏编号": "No.0111",
         "名称": "巴特·贝克（Bart Baker）",
+        "图片": "https://img.gamemale.com/album/201505/10/154845gp6oo2c6zdogo6ep.gif",
         "状态": "绝版",
         "分类": "普通类徽章",
         "关键属性": ["堕落", "金币"],
@@ -5506,6 +5601,7 @@
       "基本信息": {
         "馆藏编号": "No.0112",
         "名称": "奇怪的紫水晶",
+        "图片": "https://img.gamemale.com/album/201505/10/155735khz5tkn2952p5toy.gif",
         "状态": "绝版",
         "分类": "资产",
         "关键属性": ["血液", "咒术", "堕落", "知识", "灵魂"],
@@ -5543,6 +5639,7 @@
       "基本信息": {
         "馆藏编号": "No.0113",
         "名称": "预知水晶球",
+        "图片": "https://img.gamemale.com/album/201505/10/220233g0qlx5k805xy65zf.gif",
         "分类": "资产",
         "状态": "绝版",
         "来源": "无",
@@ -5580,6 +5677,7 @@
       "基本信息": {
         "馆藏编号": "No.0114",
         "名称": "艾尔尤因",
+        "图片": "https://img.gamemale.com/album/201505/23/074332uy1ib2qty1ltpb8v.gif",
         "分类": "装备",
         "状态": "流通",
         "来源": "无",
@@ -5623,6 +5721,7 @@
       "基本信息": {
         "馆藏编号": "No.0115",
         "名称": "杰森·斯坦森（Jason Statham）",
+        "图片": "https://img.gamemale.com/album/201505/23/082853kmrnaimcu1askiu3.gif",
         "分类": "真人男从",
         "状态": "流通",
         "来源": "美国影视演员",
@@ -5688,6 +5787,7 @@
       "基本信息": {
         "馆藏编号": "No.0116",
         "名称": "神圣十字章",
+        "图片": "https://img.gamemale.com/album/201505/23/103938wg4bu2ucub5bqra5.gif",
         "分类": "装备",
         "状态": "流通",
         "来源": "无",
@@ -5732,6 +5832,7 @@
       "基本信息": {
         "馆藏编号": "No.0117",
         "名称": "哈尔·乔丹（Hal Jordan）",
+        "图片": "https://img.gamemale.com/album/201505/23/111324uqmmn5nzj1zig14n.gif",
         "分类": "真人男从",
         "状态": "流通",
         "来源": "绿灯侠",
@@ -5783,6 +5884,7 @@
       "基本信息": {
         "馆藏编号": "No.0118",
         "名称": "新月护符",
+        "图片": "https://img.gamemale.com/album/201505/23/122641xprvykmkyl1nkyrk.gif",
         "分类": "装备",
         "状态": "流通",
         "来源": "无",
@@ -5819,6 +5921,7 @@
       "基本信息": {
         "馆藏编号": "No.0119",
         "名称": "发芽的种子",
+        "图片": "https://img.gamemale.com/album/201505/23/132101u5h11r0h12jynsk5.gif",
         "分类": "资产",
         "状态": "流通",
         "来源": "无",
@@ -5870,6 +5973,7 @@
       "基本信息": {
         "馆藏编号": "No.0120",
         "名称": "艾德尔（Edér Teylecg）",
+        "图片": "https://img.gamemale.com/album/201505/23/211212rtw2d9d7pu7v7tn8.gif",
         "分类": "游戏男从",
         "状态": "流通",
         "来源": "永恒之柱",
@@ -5900,6 +6004,7 @@
       "基本信息": {
         "馆藏编号": "No.0121",
         "名称": "盖拉斯·瓦卡瑞安（Garrus Vakarian）",
+        "图片": "https://img.gamemale.com/album/201505/23/211218k2w22hyyy2yppjf4.gif",
         "分类": "游戏男从",
         "状态": "流通",
         "来源": "质量效应系列",
@@ -5947,6 +6052,7 @@
       "基本信息": {
         "馆藏编号": "No.0122",
         "名称": "史莱姆养殖证书/史莱姆牧场",
+        "图片": "https://img.gamemale.com/album/201505/23/063533z0324l04h4437lpu.gif",
         "状态": "绝版",
         "分类": "资产",
         "来源": "无",
@@ -6295,6 +6401,7 @@
       "基本信息": {
         "馆藏编号": "No.0123",
         "名称": "这是一片丛林",
+        "图片": "https://img.gamemale.com/album/201505/23/212239tkp2eg2ooj6ui556.gif",
         "分类": "资产",
         "状态": "绝版",
         "来源": "无",
@@ -6339,6 +6446,7 @@
       基本信息: {
         馆藏编号: "No.0124",
         名称: "种植菊花",
+        "图片": "https://img.gamemale.com/album/201505/23/212249zeihi9ibh93jqlbh.gif",
         状态: "绝版",
         分类: "资产",
         来源: "无",
@@ -6390,6 +6498,7 @@
       基本信息: {
         馆藏编号: "No.0125",
         名称: "秘密森林",
+        "图片": "https://img.gamemale.com/album/201505/23/100508nbneax4fqx0if336.gif",
         状态: "绝版",
         分类: "奖品",
         来源: "无",
@@ -6413,7 +6522,8 @@
     {
       基本信息: {
         馆藏编号: "No.0126",
-        名称: "戴尔·芭芭拉",
+        名称: `戴尔·芭芭拉（Dale "Barbie" Barbara）`,
+        "图片": "https://img.gamemale.com/album/201506/29/235057z6rqn9eleee9diod.gif",
         状态: "绝版",
         分类: "真人男从",
         来源: "美剧.穹顶之下",
@@ -6457,6 +6567,7 @@
       基本信息: {
         馆藏编号: "No.0127",
         名称: "婴儿泪之瓶",
+        "图片": "https://img.gamemale.com/album/201506/30/022600rd2c0ddr1uucr12u.gif",
         状态: "流通",
         分类: "资产",
         来源: "无",
@@ -6501,6 +6612,7 @@
       基本信息: {
         馆藏编号: "No.0128",
         名称: "雪王的心脏",
+        "图片": "https://img.gamemale.com/album/201506/30/022606xtmamudldj16uzml.gif",
         状态: "绝版",
         分类: "资产",
         来源: "无",
@@ -6545,6 +6657,7 @@
       基本信息: {
         馆藏编号: "No.0129",
         名称: "萨赫的蛋糕",
+        "图片": "https://img.gamemale.com/album/201507/02/113515vyfn72h7yw5ad3t7.gif",
         状态: "流通",
         分类: "赠礼",
         来源: "无",
@@ -6573,6 +6686,7 @@
       基本信息: {
         馆藏编号: "No.0130",
         名称: "勇者与龙之书",
+        "图片": "https://img.gamemale.com/album/201506/30/052451b42z44babaaw2twl.gif",
         状态: "绝版",
         分类: "资产",
         来源: "无",
@@ -6673,6 +6787,7 @@
       "基本信息": {
         "馆藏编号": "No.0131",
         "名称": "Frank (LBF）",
+        "图片": "https://img.gamemale.com/album/201506/30/071639uph9cpl9gaha9fp0.gif",
         分类: "真人男从",
         "状态": "流通",
         "来源": "泰剧.不一样的美男（Lady Boy Friends）",
@@ -6727,6 +6842,7 @@
       "基本信息": {
         "馆藏编号": "No.0132",
         "名称": "BIG BOSS",
+        "图片": "https://img.gamemale.com/album/201506/30/084905ffr38qyqr3bnjrhy.gif",
         分类: "游戏男从",
         "状态": "绝版",
         "来源": "游戏.合金装备",
@@ -6781,6 +6897,7 @@
       "基本信息": {
         "馆藏编号": "No.0133",
         "名称": "詹米·多南",
+        "图片": "https://img.gamemale.com/album/201506/30/092042y20kg297219s6lk2.gif",
         "状态": "绝版",
         "分类": "真人男从",
         "来源": "英国.演员",
@@ -6821,6 +6938,7 @@
       "基本信息": {
         "馆藏编号": "No.0134",
         "名称": "库伦（审判）",
+        "图片": "https://img.gamemale.com/album/201506/30/100228osjjpv8iva8svac9.gif",
         "状态": "绝版",
         "分类": "游戏男从",
         "来源": "游戏.龙腾世纪",
@@ -6868,5 +6986,810 @@
         }
       ]
     },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0135",
+        "名称": "神秘商店贵宾卡",
+        "图片": "https://img.gamemale.com/album/201507/02/113509p6ybf8wy2yf2z7zd.gif",
+        "状态": "流通",
+        "勋章ID": "150",
+        "分类": "互动类徽章",
+        "来源": "无",
+        "关键属性": ["金币", "旅程"],
+        "发行量": "无限",
+        "商店售价": "50 金币",
+        "入手条件": "知识 ≥ 10",
+        "时效": "7 天",
+        "回收价格": "32 金币",
+        "寄售最大价格": "57 金币",
+        "寄售中介费": "10%",
+        "作者": ["Boow5945", "https://www.gamemale.com/?617370"]
+      },
+      "简介": "那是一个清凉的早晨，就在昨晚你应征加入了骑士团。彻夜难眠的你双眼疲惫，然而一封神秘来信把你从恍惚中拉了出来，谁会给一个健硕的乡下穷小子这样一封包装精致的信呢？你小心翼翼地拆开信封，里面竟然是一张锋利的卡片，施了魔法的浮动画面指引着你前往一家神秘商店。于是你背上行囊，拿起匕首，踏上了旅程。不过你当然不知道，在准骑士的年轻人群中，只有极其幸运的人才会收到伯爵亲手发放的贵宾卡，现在它真的归你了，快带上它赶路吧！",
+      "属性": [
+        "互动类徽章",
+        "（打折卡~~）",
+        "不可回收、不可寄售、可赠送、不可续期、不可自主购买"
+      ],
+      "特殊": [
+        "用户互动类徽章，只能用于赠送他人，有时限。",
+        "（一卡在手，天下我有~~）"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级1 神秘商店贵宾卡",
+          "图片": "https://img.gamemale.com/album/201507/02/113510j9kkzz91hb091zy0.gif",
+          "简介": "",
+          "属性": "回帖 金币 +2，触发几率 10%",
+          "升级条件": "咒术 ≥ 20"
+        },
+        {
+          "等级": "等级2 神秘商店贵宾卡",
+          "图片": "https://img.gamemale.com/album/201507/02/113511txf3f8fihqst2q1f.gif",
+          "简介": "",
+          "属性": "回帖 金币 +2、发帖 旅程 +1，触发几率 20%",
+          "升级条件": "咒术 ≥ 60"
+        },
+        {
+          "等级": "等级Max 神秘商店贵宾卡",
+          "图片": "https://img.gamemale.com/album/201507/02/113511lc67q9rjxjr3u6oj.gif",
+          "简介": "",
+          "属性": "回帖 金币 +3、发帖 旅程 +1，触发几率 30%"
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0136",
+        "名称": "史莱姆蛋",
+        "图片": "https://img.gamemale.com/forum/201905/29/214159t46znk92kkkn6on3.gif",
+        "状态": "绝版",
+        "分类": "宠物",
+        "来源": "无",
+        "关键属性": ["咒术", "金币"],
+        "发行量": "50",
+        "商店售价": "220 血液",
+        "入手条件": "回帖数 ≥ 30",
+        "绝版时间": "2015.12.15，2019.9.4",
+        "回收价格": "143 血液",
+        "寄售最大价格": "253 血液",
+        "寄售中介费": "10%",
+        "作者": ["Boow5945", "https://www.gamemale.com/space-uid-617370.html"]
+      },
+      "简介": "虽然一群史莱姆养不起，但是一只还是养得起的。快瞧这个野蛮的小不点一直在笼子里找出口呢！",
+      "属性": [
+        "普通类徽章",
+        "（充满魔力的小可爱）",
+        "不可回收、可寄售、不可续期、可赠送"
+      ],
+      "特殊": [
+        "在论坛恢复后随勋章系统重开补货60枚",
+        "（爱上一只史莱姆，可我的家里没有草原~~）"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级1 史莱姆蛋",
+          "图片": "https://img.gamemale.com/album/201905/29/221541e62b7qx0m6lyho7x.gif",
+          "简介": "虽然一群史莱姆养不起，但是一只还是养得起的。快瞧这个野蛮的小不点一直在笼子里找出口呢！",
+          "属性": "回帖 咒术 +1，触发几率 3%",
+          "升级条件": "消耗 50 金币"
+        },
+        {
+          "等级": "等级2 史莱姆蛋",
+          "图片": "https://img.gamemale.com/album/201905/29/221542tzogir48pzlfl88f.gif",
+          "简介": "经过你的细心喂养，这个史莱姆长大了不少呢，由于有点太肥了它已经没办法在笼子里爬高上低了，于是开始每天跳来跳去，想要锻炼成一只筋肉史莱姆。",
+          "属性": "回帖 咒术 +1，触发几率 6%",
+          "升级条件": "消耗 75 金币"
+        },
+        {
+          "等级": "等级3 史莱姆蛋",
+          "图片": "https://img.gamemale.com/album/201905/29/221542qr11qay13qbbqkut.gif",
+          "简介": "这个史莱姆真的已经厌倦了每天吃、睡、锻炼肌肉的生活了！它正使用全身力气想要撞断笼子！",
+          "属性": "回帖 咒术 +1，触发几率 9%",
+          "升级条件": "消耗 100 金币"
+        },
+        {
+          "等级": "等级Max 史莱姆蛋",
+          "图片": "https://img.gamemale.com/album/201905/29/221542d3pgoo0zozcg3g0o.gif",
+          "简介": "在你无限的疼爱和喂养下，史莱姆已经高大壮了，天哪，谁知道它这个头能干出什么可怕的事情来啊！一次不经意间，他居然顶开了笼子，可是当它跑出来的时候，它犹豫了，因为它发现实际上已经习惯了和你在一起平平淡淡的日子，于是它回到了笼了里，想要装作什么都没发生的样子继续和你在一起。",
+          "属性": "回帖 咒术 +1、发帖 金币 +2，触发几率 12%"
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0137",
+        "名称": "心之水晶",
+        "图片": "https://img.gamemale.com/album/201508/13/214918tqf9xiacvf9eufi8.gif",
+        "状态": "绝版",
+        "分类": "奖品",
+        "来源": "无",
+        "关键属性": ["血液"],
+        "发行量": "20",
+        "入手条件": "参加2015年七夕截图活动，通过审核即可得到",
+        "发行时间": "2015.8.16",
+        "绝版时间": "2015.8.24",
+        "作者": ["假面君", "https://www.gamemale.com/?50879"]
+      },
+      "简介": "传说由恋人的眼泪凝结而成的水晶，得到它的人将会得到世上最纯洁的爱。",
+      "属性": [
+        "纪念徽章",
+        "不可回收、不可寄售、不可续期"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级Max 心之水晶",
+          "图片": "https://img.gamemale.com/album/201508/13/214918tqf9xiacvf9eufi8.gif",
+          "属性": "发帖 血液 +2、回帖 血液 +1，触发几率 3%"
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0138",
+        "名称": "阿尔萨斯·米奈希尔（Arthas Menethil）",
+        "图片": "https://img.gamemale.com/album/201508/29/061440csrxwyllmzlxclcn.gif",
+        "状态": "流通",
+        "分类": "游戏男从",
+        "来源": "游戏.魔兽世界",
+        "关键属性": ["咒术", "堕落", "血液"],
+        "发行量": "7",
+        "商店售价": "350 金币",
+        "入手条件": "无",
+        "绝版时间": "2015.9.2",
+        "回收价格": "227 金币",
+        "寄售最大价格": "402 金币",
+        "寄售中介费": "10%",
+        "作者": ["暮色染", "https://www.gamemale.com/?622756"]
+      },
+      "简介": "阿尔萨斯·米奈希尔（Arthas Menethil）魔兽系列游戏的主角之一，洛丹伦国王泰瑞纳斯·米奈希尔二世最引以为骄傲的儿子，白银之手骑士团领袖光明使者乌瑟尔的得意弟子。后来在一连串不死族阴谋的驱使下沦为命运的傀儡，成为效忠于巫妖王耐奥祖的死亡骑士，并将洛丹伦王国化为不死族的国度，最后取代耐奥祖成为新的巫妖王，最后在勇士与银色北伐军大领主提里奥·弗丁、洛丹伦王国国王泰瑞纳斯·米奈希尔对巫妖王发动的最后的总攻中落败。",
+      "属性": [
+        "普通类徽章",
+        "咒术向徽章",
+        "不可回收、可寄售、可赠送、不可续期"
+      ],
+      "特殊": [
+        "在论坛恢复后随勋章系统重开补货20枚"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级1 阿尔萨斯·米奈希尔",
+          "图片": "https://img.gamemale.com/album/201508/29/061440csrxwyllmzlxclcn.gif",
+          "属性": "回帖 堕落 +1、发帖 咒术 +2，触发几率 7%",
+          "升级条件": "堕落 ≥ 50"
+        },
+        {
+          "等级": "等级Max 阿尔萨斯·米奈希尔",
+          "图片": "https://img.gamemale.com/album/201508/29/061440csrxwyllmzlxclcn.gif",
+          "属性": "回帖 血液 +1、发帖 咒术 +2，触发几率 15%"
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0139",
+        "名称": "维克多·天火",
+        "图片": "https://img.gamemale.com/album/201508/29/061433bdh5hkz555ak8nba.gif",
+        "状态": "流通",
+        "分类": "游戏男从",
+        "来源": "MOD.天际忍者传说",
+        "关键属性": ["金币", "血液", "灵魂"],
+        "发行量": "7",
+        "商店售价": "460 金币",
+        "入手条件": "堕落 ≤ 50",
+        "绝版时间": "2015.9.3",
+        "回收价格": "299 金币",
+        "寄售最大价格": "529 金币",
+        "寄售中介费": "10%",
+        "作者": ["viwi", "https://www.gamemale.com/?246824"]
+      },
+      "简介": "维克多是本站首发《天际忍者传说》当中的一位追加男从，他从其他大陆来到天际省进行自己注定艰难的朝圣之旅。玩家可以在裂谷城的玛拉神庙遇见这位看起来显然有些不靠谱的美少年。他经常对你唠唠叨叨地布道，发誓要净化天际居民被战争污染的心灵；他说他对世俗之事不屑一顾，尤其是金钱简直就是视若粪土；还说要将一生都献给伟大的玛拉，让治愈之风吹遍帝国每个角落…要不是那张脸的颜值比迪贝拉的圣女还高几分，你还真是要干脆一刀砍翻他才算呢！",
+      "属性": [
+        "普通类徽章",
+        "金币向徽章",
+        "灵魂向徽章",
+        "不可回收、可寄售、可赠送、不可续期"
+      ],
+      "特殊": [
+        "在论坛恢复后随勋章系统重开补货20枚"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级1",
+          "图片": "",
+          "属性": "回帖 金币 -1 血液 +2、发帖 无，触发几率 3%",
+          "升级条件": "血液 ≥ 150"
+        },
+        {
+          "等级": "等级2 低阶战斗牧师",
+          "图片": "https://img.gamemale.com/forum/202201/27/194517khcdhooc113wttcw.gif",
+          "属性": "回帖 金币 +1、发帖 血液 +2，触发几率 3%",
+          "升级条件": "消耗 55 堕落",
+          "简介": "他的新爱好是收钱看病存款交公。果然孺子可教～你满意地点点头。如果能再让你吃吃豆腐揩揩油，那就真是完美了！"
+        },
+        {
+          "等级": "等级3 优雅的圣职者",
+          "图片": "https://img.gamemale.com/forum/202209/15/222129x2cj2f906000905s.gif",
+          "属性": "回帖 金币 +1 血液 +1、发帖 血液 +2，触发几率 10%",
+          "升级条件": "知识 ≥ 30",
+          "简介": "他的实力与日俱增，真是刻苦呢这小子！加上比你还会精打细算，干脆钱也都给他管了。手头的金币就够今晚买两瓶蜜酒，你的脸上反而露出了淫荡的笑容......"
+        },
+        {
+          "等级": "等级4 高阶神圣祭司",
+          "图片": "https://img.gamemale.com/forum/202201/27/194533zjjsaba6jbjrq9ss.gif",
+          "属性": "回帖 无、发帖 金币 +10，触发几率 25%",
+          "升级条件": "旅程 ≥ 99",
+          "简介": "男孩已成长为男人，不过有时候太成熟稳重了你还挺怀念过去的他。治疗祷言如此强大，还穿什么盔甲呢你说是吧？赶紧卖钱加点存款买个豪宅！或者……再订上一条镶钻的玛拉护符？"
+        },
+        {
+          "等级": "等级Max 渐逝忠诚之魂",
+          "图片": "https://img.gamemale.com/forum/202201/27/194541yglvebm8g8vmv1kk.gif",
+          "属性": "回帖 血液 +5、发帖 灵魂 +1，触发几率 1%",
+          "简介": "金色的光芒黯淡下去时，你已然冰冷的身躯又重新感觉温暖。睁开被鲜血和泪水模糊的眼睛，你仿佛听到他的声音在耳畔低语：原谅我，不能陪你走完这最后的一程……"
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0140",
+        "名称": "天涯‧此时",
+        "图片": "https://img.gamemale.com/forum/201903/28/135700yria5z8lr8ar7fir.gif",
+        "状态": "绝版",
+        "分类": "奖品",
+        "来源": "无",
+        "关键属性": ["旅程"],
+        "发行量": "158",
+        "入手条件": "2015年中秋节纪念徽章，限时免费领取",
+        "发行时间": "2015.9.26",
+        "绝版时间": "2015.10.11",
+        "作者": ["假面君", "https://www.gamemale.com/?50879"]
+      },
+      "简介": "走在归途中的你，似乎在这一刻已经感受到了在同一轮明月下，家人传达出来的暖暖的思念。（2015年中秋节奖励）",
+      "属性": [
+        "纪念徽章",
+        "不可回收、不可寄售、不可续期"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级Max 天涯‧此时",
+          "图片": "https://img.gamemale.com/album/201509/25/235206nbletwcyuiikackk.gif",
+          "属性": "发帖 旅程 +1，触发几率 1%"
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0141",
+        "名称": "月亮的蛋",
+        "图片": "https://img.gamemale.com/forum/201903/28/135647c5exrre9oe5jn5ze.gif",
+        "状态": "绝版",
+        "分类": "奖品",
+        "来源": "无",
+        "关键属性": ["血液", "咒术", "灵魂"],
+        "发行量": "60",
+        "商店售价": "200 金币",
+        "入手条件": "2015年中秋节限时抢购徽章",
+        "发行时间": "2015.9.26",
+        "绝版时间": "2015.10.4",
+        "作者": ["天之奕", "https://www.gamemale.com/?458814"]
+      },
+      "简介": "2015年中秋节特别商品！无限供应贩卖，请在10月4号以前把它购买回家。一旦错过抢购时间，该商品会下架不再出版。（这算哪门子简介）",
+      "属性": [
+        "限时抢购徽章",
+        "不可回收、不可寄售、不可续期"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级1 快破掉的蛋",
+          "图片": "https://img.gamemale.com/album/201509/25/235212i4j3qhjjkrb1ht3k.gif",
+          "属性": "回帖 血液 +1，触发概率 1%",
+          "简介": "嫦娥奔月时，从口袋里掉落出来的神秘蛋...会孵出什么呢?",
+          "升级条件": "发帖数 ≥ 30（手动升级）"
+        },
+        {
+          "等级": "等级2 小月兔",
+          "图片": "https://img.gamemale.com/album/201509/25/235213vggo1nm9eqf9n9zf.gif",
+          "属性": "回帖 血液 +1，发帖 咒术 +2，触发概率 5%",
+          "简介": "正努力为中秋到来而捣麻吉的月兔,期待你给他满满的爱。",
+          "升级条件": "主题数 ≥ 10（手动升级）"
+        },
+        {
+          "等级": "等级3 月兔男",
+          "图片": "https://img.gamemale.com/album/201509/25/235213tig7qspx77h7sffi.gif",
+          "简介": "感受到你满满的爱而成长最终型的月兔，他将陪着你度过寂寞人生。",
+          "属性": "回帖 血液 +1，发帖 咒术 +2，触发概率 8%",
+          "升级条件": "堕落 ≥ 60"
+        },
+        {
+          "等级": "等级Max 偷情的月兔男",
+          "简介": "虽然有你满满的爱，但他还是不满足...所以趁你不注意时乱来，不过被你发现了，你还是原谅他的堕落。",
+          "图片": "https://img.gamemale.com/album/201509/25/235214pcacmveccm9hcqzc.gif",
+          "属性": "回帖 咒术 +1，发帖 灵魂 +1，触发概率 1%",
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0142",
+        "名称": "骑士遗盔",
+        "图片": "https://img.gamemale.com/forum/201903/28/135602cb0myy64zwghhw60.jpg",
+        "状态": "流通",
+        "分类": "装备",
+        "来源": "无",
+        "关键属性": ["咒术", "知识", "血液"],
+        "发行量": "20",
+        "商店售价": "275 金币",
+        "入手条件": "无",
+        "发行时间": "2015.9.26",
+        "绝版时间": "2015.11.10",
+        "回收价格": "178 金币",
+        "寄售最大价格": "316 金币",
+        "寄售中介费": "10%",
+        "作者": ["Boow5945", "https://www.gamemale.com/?617370"]
+      },
+      "简介": "一副落满灰尘和泥土的头盔，上面的雕纹里已经全是污垢，没有办法辨别是什么王朝的古董了，它仿佛是一个缄口不言的沉睡者一样。",
+      "属性": [
+        "普通类徽章",
+        "知识向徽章",
+        "不可回收、可寄售、不可续期、可赠送"
+      ],
+      "特殊": [
+        "在论坛恢复后随勋章系统重开补货 40 枚",
+        "戴上这样的头盔会弄坏我帅气的发型~~"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级1 骑士遗盔",
+          "简介": "一副落满灰尘和泥土的头盔，上面的雕文里已经全是污垢，没有办法辨别是什么王朝的古董了，它仿佛是一个缄口不言的沉睡者一样。",
+          "图片": "https://img.gamemale.com/forum/202110/14/000717lxx5put0775u7zxu.jpg",
+          "属性": "回帖 咒术 +1，触发概率 1%",
+          "升级条件": "升级消耗 25 金币"
+        },
+        {
+          "等级": "等级2 骑士遗盔",
+          "简介": "将它清洗并仔细打磨修复后，它简直就像是一件艺术品，不过从此身边许多事情发生了难以言表的微妙变化。",
+          "图片": "https://img.gamemale.com/forum/202110/14/000717xkkjkwictkewgp2l.gif",
+          "属性": "回帖 咒术 +1，发帖 知识 +1，触发概率 2%",
+          "升级条件": "升级消耗 50 金币"
+        },
+        {
+          "等级": "等级3 骑士遗盔",
+          "简介": "突然有一天，这只头盔变得格外锃亮，那耀眼的光芒从头盔下透出来，用呼吸般的节奏闪烁着。这一定预示着什么。",
+          "图片": "https://img.gamemale.com/forum/202110/14/000717kllrmfhueff9susu.gif",
+          "属性": "回帖 咒术 +1，发帖 知识 +1，触发概率 3%",
+          "升级条件": "升级消耗 100 金币"
+        },
+        {
+          "等级": "等级Max 骑士遗盔",
+          "简介": "这只头盔召唤了沉睡在其中的骑士的灵魂，他抄起长矛，披上坚甲，骑上战马，准备好为你浴血奋战！",
+          "图片": "https://img.gamemale.com/forum/202110/14/000718r46izd2d6qskspgz.gif",
+          "属性": "回帖 血液 +1 咒术 +1，发帖 知识 +1，触发概率 5%",
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0143",
+        "名称": "传承之证",
+        "图片": "https://img.gamemale.com/forum/201903/28/135531dhghk19zfyohxisg.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "奖品",
+        "来源": "无",
+        "关键属性": ["血液", "堕落", "金币"],
+        "发行量": "11",
+        "商店售价": "无",
+        "入手条件": "参加【2015文学区活动】即可获得",
+        "发行时间": "2015.11.6",
+        "绝版时间": "2015.11.25",
+        "作者": [
+          "丧失神殿",
+          "https://www.gamemale.com/?338301"
+        ]
+      },
+      "简介": "作为传承者的洁白证明，在烈火中闪烁光芒。（2015文学区活动的奖品。）",
+      "属性": [
+        "活动奖励徽章",
+        "不可回收、不可寄售、不可续期"
+      ],
+      "特殊": [],
+      "等级数据": [
+        {
+          "等级": "等级1 传承之证",
+          "图片": "https://img.gamemale.com/album/201511/06/205320bjh882rpfrx9s9n8.gif",
+          "简介": "作为传承者的洁白证明，在烈火中闪烁光芒。如果将其献入火中，或许会有不错的收获……但也会遭遇背弃传承的惩罚。",
+          "属性": "回帖 血液 +1 堕落 -1，触发几率 2%",
+          "升级条件": "升级获得 66 金币"
+        },
+        {
+          "等级": "等级Max 背弃之证",
+          "图片": "https://img.gamemale.com/album/201511/06/205320yiuyyzq4uhwxyrnd.gif",
+          "简介": "被投入火中的证明感到了你的背弃，逐渐变暗发红，这是你背弃传承的证明，它将永远伴随你走向血雨腥风的堕落之路。",
+          "属性": "回帖 金币 +1 堕落 +1，触发几率 2%",
+          "升级条件": ""
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0144",
+        "名称": "新年小猴",
+        "图片": "https://img.gamemale.com/forum/201903/28/133155terps1p1vdswv1vj.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "奖品",
+        "来源": "无",
+        "关键属性": ["金币"],
+        "发行量": "55",
+        "商店售价": "无",
+        "入手条件": "参与论坛2016年新年送祝福活动限时获得。",
+        "发行时间": "",
+        "绝版时间": "",
+        "作者": ["同龄控Aliex", "https://www.gamemale.com/?63115"]
+      },
+      "简介": "三羊辞旧去，大圣踏云来！新年伊始，大圣拔了一根毫毛，变成这只可爱的小猴子，就让他陪你在猴年里降妖除魔，勇往直前！\n（2016新年送祝福活动徽章）",
+      "属性": [
+        "活动奖励徽章",
+        "不可回收、不可寄售、不可续期"
+      ],
+      "特殊": [
+        "寓意新年到来的特殊徽章，象征勇气与欢乐。",
+        "由大圣拔毫毛变成的小猴子，守护你的一整年。"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级Max 新年小猴",
+          "图片": "https://img.gamemale.com/forum/201903/28/133155terps1p1vdswv1vj.gif",
+          "属性": "回帖 金币 +1，触发几率 2%",
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0145",
+        "名称": "变形软泥",
+        "图片": "https://img.gamemale.com/forum/201903/28/133131e7ecrt602pex66on.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "装备",
+        "来源": "无",
+        "关键属性": ["堕落", "咒术"],
+        "发行量": "66",
+        "商店售价": "66 金币",
+        "入手条件": "无",
+        "发行时间": "2016.02.23",
+        "绝版时间": "2019.03.22",
+        "回收价格": "42 金币",
+        "寄售最大价格": "75 金币",
+        "寄售中介费": "7 金币",
+        "作者": ["假面君", "https://www.gamemale.com/space-uid-50879.html"]
+      },
+      "简介": "这摊软泥好像有生命一样总是在不停的变化着形状。你感觉非常有趣，便从黑市老板那里买了过来。",
+      "属性": [
+        "普通类徽章",
+        "堕落向徽章",
+        "可回收、可寄售、不可续期、可赠送"
+      ],
+      "特殊": [
+        "在论坛恢复后随勋章系统重开补货50枚",
+        "邪恶的眼睛看着你~~"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级1 变形软泥",
+          "图片": "https://img.gamemale.com/album/201602/17/173704elkqqcgulk7zk7l0.gif",
+          "简介": "这摊软泥好像有生命一样总是在不停的变化着形状。你感觉非常有趣，便从黑市老板那里买了过来。",
+          "属性": "无属性",
+          "升级条件": "消耗 13 堕落"
+        },
+        {
+          "等级": "等级2 冥界魔眼",
+          "图片": "https://img.gamemale.com/album/201602/17/173706j9bxb16kp9rrbnp8.gif",
+          "简介": "软泥变成了一颗诡异的眼珠后不再变化，从它的瞳孔中你感受到了邪恶的气息。",
+          "属性": "回帖 堕落 +2，触发几率 3%",
+          "升级条件": "消耗 166 金币"
+        },
+        {
+          "等级": "等级Max 魔眼护符",
+          "图片": "https://img.gamemale.com/album/201602/17/173708agqrxjycxttbrtqx.gif",
+          "简介": "魔眼被你镶嵌在了护符上随身携带，源源不断的黑暗力量正涌入你的身体。",
+          "属性": "回帖 堕落 +2，发帖 咒术 +1，触发几率 6%",
+          "升级条件": ""
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0146",
+        "名称": "克里斯·埃文斯（Chris Evans）",
+        "图片": "https://img.gamemale.com/forum/201903/28/133103ar8fmq08qn98nqn9.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "真人男从",
+        "来源": "美国·演员",
+        "关键属性": ["血液", "旅程"],
+        "发行量": "15",
+        "商店售价": "300 金币",
+        "入手条件": "无",
+        "发行时间": "2016.02.23",
+        "绝版时间": "2016.02.24，2019.3.22",
+        "回收价格": "195 金币",
+        "寄售最大价格": "345 金币",
+        "寄售中介费": "10%",
+        "作者": ["longnoc119", "https://www.gamemale.com/space-uid-613138.html"]
+      },
+      "简介": "Chris Evans 美国演员，凭借出演《神奇四侠》中的“霹雳火”和《美国队长》、《复仇者联盟》中的“美国队长”两个经典漫画英雄角色，在当年又掀起了超级英雄的热潮。克里斯·埃文斯 (Chris Evans) 外形帅气，身材一流，绝对是当今好莱坞的主流型男一枚！",
+      "属性": [
+        "普通类徽章",
+        "血液向徽章",
+        "不可回收、可寄售、可赠送、不可续期"
+      ],
+      "特殊": [
+        "在论坛恢复后随勋章系统重开补货30枚",
+        "卖萌可耻~~"
+      ],
+      "等级数据": [
+        {
+          "等级": "等级1 克里斯·埃文斯",
+          "图片": "https://img.gamemale.com/album/201602/20/134918obx15k16jr1z9289.gif",
+          "简介": "",
+          "属性": "回帖 血液 +1、发帖 血液 +1，触发几率 2%",
+          "升级条件": "追随 ≥ 50"
+        },
+        {
+          "等级": "等级2 克里斯·埃文斯",
+          "图片": "https://img.gamemale.com/forum/202302/13/133523vae939lz9lllsaal.gif",
+          "简介": "",
+          "属性": "回帖 血液 +2、发帖 血液 +2，触发几率 3%",
+          "升级条件": "300 金币"
+        },
+        {
+          "等级": "等级Max 克里斯·埃文斯",
+          "图片": "https://img.gamemale.com/forum/202306/09/025515nksu6ysyknzk1snl.gif",
+          "简介": "",
+          "属性": "回帖 血液 +2 旅程 +1、发帖 血液 +2 旅程 +1，触发几率 5%",
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0147",
+        "名称": "安德鲁·库珀（Andrew Cooper）",
+        "图片": "https://img.gamemale.com/forum/201903/28/133041rrs755v5cn2xsx2g.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "真人男从",
+        "来源": "英国.名模",
+        "关键属性": ["金币", "血液"],
+        "发行量": "10",
+        "商店售价": "400 金币",
+        "入手条件": "无",
+        "发行时间": "2016.02.23",
+        "绝版时间": "2016.03.27，2019.10.24",
+        "回收价格": "260 金币",
+        "寄售最大价格": "460 金币",
+        "寄售中介费": "10%",
+        "作者": ["zrfz", "https://www.gamemale.com/space-uid-616942.html"]
+      },
+      "简介": "Andrew Cooper，1981年2月24日出生于英格兰，曾被著名的模特专业杂志《M》评价为最完美的男模，代言包括杜嘉班纳、阿玛尼、欧莱雅、路易威登等著名品牌。2013年，Andrew Cooper成为“健怡可乐”的代言人，拍摄了一只电视广告，再次吸引了全球的注意力。在广告中，他在公园被妇女调戏，然后脱掉上衣，肌肉逆袭。很简单的故事，但是很管用！谈到这个广告，Andrew Cooper说：“我只是个幸运的男人，正确的地方，正确的时间。我很高兴参与进去。”",
+      "属性": ["普通类徽章", "金币向徽章", "不可回收、可寄售、可赠送、不可续期"],
+      "特殊": ["在论坛恢复后随勋章系统重开补货20枚", "看着流鼻血~~"],
+      "等级数据": [
+        {
+          "等级": "等级1 安德鲁·库珀",
+          "图片": "https://img.gamemale.com/album/201602/20/154456o7n5yw25svraaray.gif",
+          "简介": "",
+          "属性": "回帖 金币 +1 血液 -1，触发几率 2%",
+          "升级条件": "消耗 200 血液"
+        },
+        {
+          "等级": "等级2 安德鲁·库珀",
+          "图片": "https://img.gamemale.com/album/201602/20/154520mnndxpplv03vygiz.gif",
+          "简介": "",
+          "属性": "回帖 金币 +2 血液 -1，触发几率 5%",
+          "升级条件": "消耗 300 血液"
+        },
+        {
+          "等级": "等级Max 安德鲁·库珀",
+          "图片": "https://img.gamemale.com/album/201602/20/154600zvbkq6ap88u8cb82.gif",
+          "简介": "",
+          "属性": "回帖 金币 +3 血液 -1、发帖 金币 +3 血液 -1，触发几率 10%",
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0148",
+        "名称": "罗宾·西克（Robin Thicke）",
+        "图片": "https://img.gamemale.com/forum/201903/28/133018r8eb99zfl190zsa0.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "真人男从",
+        "来源": "美国.歌手",
+        "关键属性": ["堕落", "血液"],
+        "发行量": "20",
+        "商店售价": "300 金币",
+        "入手条件": "无",
+        "发行时间": "2016.05.02",
+        "绝版时间": "2019.08.28",
+        "回收价格": "195 金币",
+        "寄售最大价格": "345 金币",
+        "寄售中介费": "10%",
+        "作者": ["gyx0325", "https://www.gamemale.com/space-uid-158161.html"]
+      },
+      "简介": "全名Robin Alan Thicke，简称Robin Thicke，，外号：“骚宾” 1977年3月10日出生于美国加利福尼亚州，是一名美国-加拿大的创作型歌手，作曲家和演员。他因为自己为Usher以及Lil Wayne制作的专辑Confessions以及Tha Carter III获得了广泛的认可。除此之外，Thicke还在ABC电视台推出的歌唱比赛最美和声中当中担任导师一职。他用一首<Blurred lines>红遍美国大江南北，却因为太过放纵自己，与妻子宝拉婚姻破裂。",
+      "属性": ["普通类徽章", "堕落向徽章", "可回收、可寄售、可赠送、不可续期"],
+      "特殊": ["在论坛恢复后随勋章系统重开补货30枚", "浪子回头金不换~"],
+      "等级数据": [
+        {
+          "等级": "等级1 罗宾·西克",
+          "图片": "https://img.gamemale.com/album/201605/02/192230msgyjyk28ygyfsz2.gif",
+          "简介": "",
+          "属性": "回帖 堕落 +1，触发几率 5%",
+          "升级条件": "堕落 ≥ 20"
+        },
+        {
+          "等级": "等级2 罗宾·西克",
+          "图片": "https://img.gamemale.com/forum/202307/04/132826nwznm41mz19rtd27.gif",
+          "简介": "",
+          "属性": "回帖 堕落 +2，触发几率 5%",
+          "升级条件": "堕落 ≥ 50"
+        },
+        {
+          "等级": "等级3 罗宾·西克",
+          "图片": "https://img.gamemale.com/album/201605/02/192233idmhdmetnznuznig.gif",
+          "简介": "",
+          "属性": "回帖 堕落 +2 血液 -1，触发几率 10%",
+          "升级条件": "消耗 200 血液"
+        },
+        {
+          "等级": "等级Max 罗宾·西克",
+          "图片": "https://img.gamemale.com/forum/202307/04/150151cprujmx8svcs8xjt.gif",
+          "简介": "全名Robin Alan Thicke，简称Robin Thicke，外号：“骚宾”1977年3月10日出生于美国加利福尼亚州，是一名美国—加拿大的创作型歌手，作曲家和演员。他因为自己为Usher以及Lil Wayne制作的专辑 Confessions以及Tha Carter III获得了广 泛的认可。除此之外，Thicke还在ABC电视台推出的歌唱比赛最美和声中当中担任导师一职。为了挽回前妻宝拉，他发行了专辑《Paula》，希望洗清自己的堕落，并追回前妻。虽然他的愿望至今没有实现，但是他的歌声治愈了所有爱他的粉丝。",
+          "属性": "回帖 堕落 -1 血液 +2，触发几率 15%",
+          "升级条件": ""
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0149",
+        "名称": "章鱼小丸子",
+        "图片": "https://img.gamemale.com/forum/201903/28/132944iaraofiw6pwaafi5.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "资产",
+        "来源": "无",
+        "关键属性": ["血液"],
+        "发行量": "50",
+        "商店售价": "150 金币",
+        "入手条件": "无",
+        "发行时间": "2016.05.02",
+        "绝版时间": "2019.04.30",
+        "回收价格": "97 金币",
+        "寄售最大价格": "172 金币",
+        "寄售中介费": "10%",
+        "作者": ["Boow5945", "https://www.gamemale.com/space-uid-617370.html"]
+      },
+      "简介": "章鱼小丸子，起源于日本大阪，原名“章鱼烧”（たこやき），历史可以追溯到大正年代，创始人是日本著名美食家远藤留吉先生。因为皮酥肉嫩、味美价廉，而成为日本家喻户晓的国粹小吃，并且随后在东南亚各地区流行起来。章鱼小丸子的成分主要是章鱼、章鱼烧粉、柴鱼片、海苔、沙拉酱、章鱼烧酱等。",
+      "属性": ["普通类徽章", "血液向徽章", "不可回收、可寄售、不可续期、可赠送"],
+      "特殊": ["在论坛恢复后随勋章系统重开补货60枚", "香气扑鼻的章鱼丸子，看着就想吃~"],
+      "等级数据": [
+        {
+          "等级": "等级1 章鱼小丸子",
+          "图片": "https://img.gamemale.com/forum/202308/28/194728sksdmkwfednewkw9.gif",
+          "简介": "香气扑鼻、美味可口的章鱼丸子，好想吃一口！",
+          "属性": "回帖 血液 +1，触发几率 10%",
+          "升级条件": "升级获得 10 血液"
+        },
+        {
+          "等级": "等级2 章鱼小丸子",
+          "图片": "https://img.gamemale.com/forum/202308/28/194715v3qp5335n6k55ks6.gif",
+          "简介": "一口下去，好烫啊！不过好好吃，还想要。",
+          "属性": "回帖 血液 +1，触发几率 7%",
+          "升级条件": "升级获得 20 血液"
+        },
+        {
+          "等级": "等级3 章鱼小丸子",
+          "图片": "https://img.gamemale.com/forum/202308/28/194715v3qp5335n6k55ks6.gif",
+          "简介": "又吃了一个，根本停不下来！",
+          "属性": "回帖 血液 +1，触发几率 5%",
+          "升级条件": "升级获得 20 血液"
+        },
+        {
+          "等级": "等级4 章鱼小丸子",
+          "图片": "https://img.gamemale.com/forum/202308/28/194720eh69vv7hqllz7q20.gif",
+          "简介": "呜~只剩最后一个了要不要吃呢？",
+          "属性": "回帖 血液 +2，触发几率 3%",
+          "升级条件": "升级获得 30 血液"
+        },
+        {
+          "等级": "等级Max 章鱼小丸子",
+          "图片": "https://img.gamemale.com/forum/202308/28/194723oy7e7taz2zdag5hn.gif",
+          "简介": "忍不住吃了个精光，盘子可以舔舔么？",
+          "属性": "无",
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0150",
+        "名称": "华灯初上",
+        "图片": "https://img.gamemale.com/forum/201903/28/132731cqp99zzhfrqknhon.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "奖品",
+        "来源": "无",
+        "关键属性": ["知识"],
+        "发行量": "23",
+        "入手条件": "在论坛三周年庆活动期间完成指定任务获得。",
+        "作者": ["gamemale", "https://www.gamemale.com/space-uid-50871.html"]
+      },
+      "简介": "夜幕降临，华灯初上。趁着夜色出去走走，街道上人群熙熙攘攘，热闹非凡。不知不觉转进一条小巷，晚风起，随风摇曳的路灯让你想起了与这座城市相伴三年里的点点滴滴。[论坛三周年纪念徽章]",
+      "属性": ["纪念徽章", "知识向徽章", "不可回收、不可寄售、不可续期"],
+      "特殊": [],
+      "等级数据": [
+        {
+          "等级": "等级1 华灯初上",
+          "图片": "https://img.gamemale.com/forum/201903/28/132731cqp99zzhfrqknhon.gif",
+          "简介": "",
+          "属性": "回帖 知识 +1，触发几率 3%",
+          "升级条件": ""
+        }
+      ]
+    },
+    {
+      "基本信息": {
+        "馆藏编号": "No.0151",
+        "名称": "岛田半藏（Shimada Hanzo）",
+        "图片": "https://img.gamemale.com/forum/201903/28/132346a37bkxmb071k38kk.gif",
+        "勋章ID": "",
+        "状态": "绝版",
+        "分类": "游戏男从",
+        "来源": "网游：守望先锋/鬥陣特攻",
+        "关键属性": ["血液", "金币", "咒术"],
+        "发行量": "10",
+        "商店售价": "500 金币",
+        "入手条件": "无",
+        "发行时间": "2019.03.22",
+        "绝版时间": "2019.03.29",
+        "回收价格": "325 金币",
+        "寄售最大价格": "575 金币",
+        "寄售中介费": "10%",
+        "作者": ["饱含", "https://www.gamemale.com/space-uid-648772.html"]
+      },
+      "简介": "岛田家据传已有数百年的历史。作为大名的长子，半藏注定要继承他的父亲统治岛田帝国。父亲过世后，家族长老就建议半藏帮助他那刚愎自用的弟弟，以便两人携手管理岛田帝国。在遭到拒绝后，半藏被迫亲手了结了自己的弟弟。半藏因此深受打击，他拒绝继承父亲的遗产并最终抛弃了自己的家族和所有辛苦换来的成果。现在，半藏四海为家，不断磨练着自己作为一名武士的技巧，希望终有一天能挽回自己的名誉并真正放下自己的过去。“荣誉之于生死，救赎之于荣誉。”——岛田半藏",
+      "属性": ["普通类徽章", "咒术类徽章", "不可回收、可寄售、可赠送、不可续期"],
+      "特殊": [],
+      "等级数据": [
+        {
+          "等级": "等级1 岛田半藏",
+          "图片": "",
+          "简介": "",
+          "属性": "回帖 血液 +1，触发几率 2%",
+          "升级条件": "知识 ≥ 10"
+        },
+        {
+          "等级": "等级2 岛田半藏",
+          "图片": "",
+          "简介": "",
+          "属性": "回帖 血液 +1，触发几率 5%",
+          "升级条件": "旅程 ≥ 25 "
+        },
+        {
+          "等级": "等级3 岛田半藏",
+          "图片": "https://img.gamemale.com/forum/202112/19/114019ahlkfiikjowfhso8.gif",
+          "简介": `向你吐露心声的半藏似乎对你多箭,那些箭曾随他征战无数。"音"在注视你的半藏那样。与此同了一分信任，他玩弄着手里的和散",何其美妙的名字,就像正时，他似乎，还眨了下眼？`,
+          "属性": "回帖 金币 +1 血液 +1，触发几率 5%",
+          "升级条件": "咒术 ≥ 100"
+        },
+        {
+          "等级": "等级Max 岛田半藏",
+          "图片": "https://img.gamemale.com/forum/202112/19/114157aogugotcbbgoebyc.gif",
+          "简介": `半藏忽然感受到了力量的存在用"竜"箭召唤出神龙,你的咒术化为神龙力量的一部分,蓝色的火光映照在你的瞳孔上，双龙在空中旋转飞舞,仿佛能穿越天际。`,
+          "属性": "回帖 金币 +1 咒术 +1，触发几率 10%",
+        }
+      ]
+    }
   ]
 })();
